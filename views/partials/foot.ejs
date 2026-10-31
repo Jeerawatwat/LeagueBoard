@@ -1,7 +1,25 @@
 </main>
 <footer class="site-footer">
-  <div class="container">LeagueBoard งานกลุ่มวิชา Database ข้อมูลใช้เพื่องานวิชาเท่านั้น</div>
+  <div class="container">Kaset League งานกลุ่มวิชา Database ข้อมูลใช้เพื่องานวิชาเท่านั้น</div>
 </footer>
 <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script>
+  (function () {
+    var root = document.documentElement;
+    var button = document.getElementById('themeToggle');
+    if (!button) return;
+    function paint() {
+      var isLight = root.getAttribute('data-bs-theme') === 'light';
+      button.textContent = isLight ? '☾ โหมดมืด' : '☀ โหมดสว่าง';
+    }
+    button.addEventListener('click', function () {
+      var next = root.getAttribute('data-bs-theme') === 'light' ? 'dark' : 'light';
+      root.setAttribute('data-bs-theme', next);
+      try { localStorage.setItem('lb-theme', next); } catch (e) {}
+      paint();
+    });
+    paint();
+  })();
+</script>
 </body>
 </html>
