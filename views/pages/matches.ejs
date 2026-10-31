@@ -1,0 +1,33 @@
+<%- include('../partials/head', { title }) %>
+<div class="page-head">
+  <h1 class="h3 mb-0">โปรแกรม/ผลแข่ง</h1>
+  <form method="get" class="season-picker">
+    <label class="form-label mb-0 small text-secondary" for="seasonSelect">ฤดูกาล</label>
+    <select class="form-select form-select-sm" id="seasonSelect" name="season" onchange="this.form.submit()">
+      <% seasons.forEach((s) => { %>
+        <option value="<%= s.SeasonID %>" <%= season && s.SeasonID === season.SeasonID ? 'selected' : '' %>><%= s.SeasonName %></option>
+      <% }) %>
+    </select>
+    <label class="form-label mb-0 small text-secondary" for="roundSelect">รอบ</label>
+    <select class="form-select form-select-sm" id="roundSelect" name="round" onchange="this.form.submit()">
+      <option value="">ทั้งหมด</option>
+      <% rounds.forEach((no) => { %>
+        <option value="<%= no %>" <%= no === round ? 'selected' : '' %>><%= no %></option>
+      <% }) %>
+    </select>
+    <noscript><button class="btn btn-sm btn-primary" type="submit">เลือก</button></noscript>
+  </form>
+</div>
+
+<% if (groups.length === 0) { %>
+  <div class="empty-state">ฤดูกาลนี้ยังไม่มีโปรแกรมการแข่งขัน</div>
+<% } %>
+<% groups.forEach((group) => { %>
+  <section class="panel mb-3">
+    <div class="panel-body pb-2">
+      <h2 class="panel-title mb-0">รอบที่ <%= group.roundNo %></h2>
+    </div>
+    <% group.matches.forEach((match) => { %><%- include('../partials/matchRow', { match }) %><% }) %>
+  </section>
+<% }) %>
+<%- include('../partials/foot') %>

@@ -1,0 +1,19 @@
+<%- include('../partials/head', { title }) %>
+<div class="page-head"><h1 class="h3 mb-0">ทีม</h1></div>
+<% if (teams.length === 0) { %>
+  <div class="empty-state">ยังไม่มีทีมที่ได้รับการอนุมัติ</div>
+<% } %>
+<div class="row g-3">
+  <% teams.forEach((team) => { %>
+    <div class="col-sm-6 col-lg-3">
+      <a class="panel panel-body d-flex align-items-center gap-3 text-reset text-decoration-none h-100" href="/teams/<%= team.TeamID %>">
+        <img class="team-logo-lg" src="<%= fmt.logo(team.LogoUrl) %>" alt="">
+        <span>
+          <span class="fw-bold d-block"><%= team.TeamName %></span>
+          <span class="small text-secondary"><%= team.PlayerCount %> คน</span>
+        </span>
+      </a>
+    </div>
+  <% }) %>
+</div>
+<%- include('../partials/foot') %>

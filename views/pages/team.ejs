@@ -1,0 +1,44 @@
+<%- include('../partials/head', { title }) %>
+<div class="page-head">
+  <div class="d-flex align-items-center gap-3">
+    <img class="team-logo-lg" src="<%= fmt.logo(team.LogoUrl) %>" alt="">
+    <div>
+      <h1 class="h3 mb-1"><%= team.TeamName %></h1>
+      <% if (standing) { %>
+        <div class="small text-secondary">อันดับ <%= standing.RankNo %> · <%= standing.Points %> แต้ม จาก <%= standing.Played %> นัด</div>
+        <%- include('../partials/form', { form: standing.Form }) %>
+      <% } %>
+    </div>
+  </div>
+  <%- include('../partials/seasonPicker', { seasons, season }) %>
+</div>
+
+<div class="row g-3">
+  <div class="col-lg-5">
+    <section class="panel panel-body">
+      <h2 class="panel-title">รายชื่อนักกีฬา</h2>
+      <% if (roster.length === 0) { %>
+        <p class="text-secondary mb-0">ยังไม่มีนักกีฬา</p>
+      <% } else { %>
+        <table class="table table-sm align-middle mb-0">
+          <thead><tr><th scope="col">เบอร์</th><th scope="col">ชื่อเล่น</th><th scope="col">ตำแหน่ง</th></tr></thead>
+          <tbody>
+            <% roster.forEach((p) => { %>
+              <tr><td><%= p.JerseyNo %></td><td><%= p.Nickname %></td><td><%= fmt.positionLabel(p.Position) %></td></tr>
+            <% }) %>
+          </tbody>
+        </table>
+      <% } %>
+    </section>
+  </div>
+  <div class="col-lg-7">
+    <section class="panel">
+      <div class="panel-body pb-2"><h2 class="panel-title mb-0">แมตช์ของทีม</h2></div>
+      <% if (matches.length === 0) { %>
+        <p class="px-3 text-secondary">ฤดูกาลนี้ยังไม่มีแมตช์</p>
+      <% } %>
+      <% matches.forEach((match) => { %><%- include('../partials/matchRow', { match }) %><% }) %>
+    </section>
+  </div>
+</div>
+<%- include('../partials/foot') %>

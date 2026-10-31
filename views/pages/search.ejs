@@ -1,0 +1,35 @@
+<%- include('../partials/head', { title }) %>
+<div class="page-head"><h1 class="h3 mb-0">ค้นหานักเตะ</h1></div>
+<form method="get" class="panel panel-body mb-3">
+  <label class="form-label" for="q">ชื่อเล่น</label>
+  <div class="input-group">
+    <input class="form-control" id="q" name="q" maxlength="50" value="<%= keyword %>" autofocus>
+    <button class="btn btn-primary" type="submit">ค้นหา</button>
+  </div>
+</form>
+<% if (keyword && players.length === 0) { %>
+  <div class="empty-state">ไม่พบนักกีฬาที่ชื่อตรงกับ "<%= keyword %>"</div>
+<% } %>
+<% if (players.length) { %>
+  <div class="panel table-responsive">
+    <table class="table align-middle mb-0">
+      <thead><tr><th scope="col">เบอร์</th><th scope="col">ชื่อเล่น</th><th scope="col">ตำแหน่ง</th><th scope="col">ทีม</th></tr></thead>
+      <tbody>
+        <% players.forEach((p) => { %>
+          <tr>
+            <td><%= p.JerseyNo %></td>
+            <td><%= p.Nickname %></td>
+            <td><%= fmt.positionLabel(p.Position) %></td>
+            <td>
+              <a class="team-link" href="/teams/<%= p.TeamID %>">
+                <img class="team-logo" src="<%= fmt.logo(p.LogoUrl) %>" alt="">
+                <span><%= p.TeamName %></span>
+              </a>
+            </td>
+          </tr>
+        <% }) %>
+      </tbody>
+    </table>
+  </div>
+<% } %>
+<%- include('../partials/foot') %>

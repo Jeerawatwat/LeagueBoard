@@ -1,0 +1,32 @@
+<%- include('../partials/head', { title }) %>
+<div class="page-head">
+  <h1 class="h3 mb-0">ดาวซัลโว</h1>
+  <%- include('../partials/seasonPicker', { seasons, season }) %>
+</div>
+<% if (scorers.length === 0) { %>
+  <div class="empty-state">ฤดูกาลนี้ยังไม่มีผู้ทำประตู</div>
+<% } else { %>
+  <div class="panel table-responsive">
+    <table class="table league-table align-middle mb-0">
+      <thead>
+        <tr><th class="text-center" scope="col">อันดับ</th><th scope="col">นักกีฬา</th><th scope="col">ทีม</th><th class="num" scope="col">ประตู</th></tr>
+      </thead>
+      <tbody>
+        <% scorers.forEach((s) => { %>
+          <tr>
+            <td class="rank-cell"><%= s.RankNo %></td>
+            <td>#<%= s.JerseyNo %> <%= s.Nickname %></td>
+            <td>
+              <a class="team-link" href="/teams/<%= s.TeamID %>">
+                <img class="team-logo" src="<%= fmt.logo(s.LogoUrl) %>" alt="">
+                <span><%= s.TeamName %></span>
+              </a>
+            </td>
+            <td class="num fw-bold"><%= s.Goals %></td>
+          </tr>
+        <% }) %>
+      </tbody>
+    </table>
+  </div>
+<% } %>
+<%- include('../partials/foot') %>

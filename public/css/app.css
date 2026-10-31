@@ -43,6 +43,7 @@ main { flex: 1; }
   border: 1px solid var(--lb-line);
   border-radius: 8px;
 }
+.panel { min-width: 0; overflow-x: auto; }
 .panel-body { padding: 1rem; }
 .panel-title { margin-bottom: .75rem; font-size: 1rem; font-weight: 700; }
 

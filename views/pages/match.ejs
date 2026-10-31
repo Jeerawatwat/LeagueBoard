@@ -1,0 +1,72 @@
+<%- include('../partials/head', { title }) %>
+<p class="small text-secondary mb-2">
+  <%= match.SeasonName %> รอบที่ <%= match.RoundNo %> · <%= fmt.formatDateTime(match.KickoffAt) %><% if (match.VenueName) { %> · <%= match.VenueName %><% } %>
+</p>
+<section class="panel match-hero mb-3">
+  <div class="hero-team">
+    <img class="team-logo-lg" src="<%= fmt.logo(match.HomeLogoUrl) %>" alt="">
+    <div><a href="/teams/<%= match.HomeTeamID %>"><%= match.HomeTeamName %></a></div>
+    <div class="small text-secondary">เหย้า</div>
+  </div>
+  <div>
+    <% if (match.Status === 'Finished') { %>
+      <div class="hero-score"><%= match.HomeScore %> - <%= match.AwayScore %></div>
+      <div class="small text-secondary mt-1">จบการแข่งขัน</div>
+    <% } else { %>
+      <div class="hero-score"><%= fmt.formatTime(match.KickoffAt) %></div>
+      <div class="small text-secondary mt-1">ยังไม่แข่ง</div>
+    <% } %>
+  </div>
+  <div class="hero-team">
+    <img class="team-logo-lg" src="<%= fmt.logo(match.AwayLogoUrl) %>" alt="">
+    <div><a href="/teams/<%= match.AwayTeamID %>"><%= match.AwayTeamName %></a></div>
+    <div class="small text-secondary">เยือน</div>
+  </div>
+</section>
+
+<div class="row g-3">
+  <div class="col-lg-6">
+    <section class="panel panel-body h-100">
+      <h2 class="panel-title">เหตุการณ์ในแมตช์</h2>
+      <% if (events.length === 0) { %>
+        <p class="text-secondary mb-0">ยังไม่มีเหตุการณ์</p>
+      <% } else { %>
+        <table class="table table-sm align-middle mb-0">
+          <thead><tr><th scope="col">นาที</th><th scope="col">เหตุการณ์</th><th scope="col">ผู้เล่น</th><th scope="col">ทีม</th></tr></thead>
+          <tbody>
+            <% events.forEach((e) => { %>
+              <tr>
+                <td><%= e.Minute %>'</td>
+                <td><%= fmt.eventLabel(e.EventType) %></td>
+                <td>#<%= e.JerseyNo %> <%= e.Nickname %></td>
+                <td class="small"><%= e.TeamName %></td>
+              </tr>
+            <% }) %>
+          </tbody>
+        </table>
+      <% } %>
+    </section>
+  </div>
+  <div class="col-lg-6">
+    <section class="panel panel-body h-100">
+      <h2 class="panel-title">สถิติการพบกัน</h2>
+      <% if (headToHead.length === 0) { %>
+        <p class="text-secondary mb-0">ยังไม่เคยพบกัน</p>
+      <% } else { %>
+        <table class="table table-sm align-middle mb-0">
+          <thead><tr><th scope="col">ฤดูกาล</th><th scope="col">คู่แข่งขัน</th><th class="text-center" scope="col">ผล</th></tr></thead>
+          <tbody>
+            <% headToHead.forEach((h) => { %>
+              <tr>
+                <td class="small"><%= h.SeasonName %></td>
+                <td class="small"><%= h.HomeTeamName %> พบ <%= h.AwayTeamName %></td>
+                <td class="text-center fw-bold"><a class="text-reset" href="/matches/<%= h.MatchID %>"><%= h.HomeScore %>-<%= h.AwayScore %></a></td>
+              </tr>
+            <% }) %>
+          </tbody>
+        </table>
+      <% } %>
+    </section>
+  </div>
+</div>
+<%- include('../partials/foot') %>

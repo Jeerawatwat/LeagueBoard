@@ -1,0 +1,58 @@
+<%- include('../partials/head', { title }) %>
+<div class="page-head">
+  <div>
+    <h1 class="h3 mb-0">LeagueBoard</h1>
+    <% if (season) { %><div class="text-secondary small"><%= season.SeasonName %></div><% } %>
+  </div>
+</div>
+
+<div class="row g-3">
+  <div class="col-lg-8">
+    <section class="panel mb-3">
+      <div class="panel-body pb-2"><h2 class="panel-title mb-0">ผลการแข่งขันล่าสุด</h2></div>
+      <% if (recent.length === 0) { %>
+        <p class="px-3 text-secondary">ยังไม่มีผลการแข่งขัน</p>
+      <% } %>
+      <% recent.forEach((match) => { %><%- include('../partials/matchRow', { match }) %><% }) %>
+    </section>
+    <section class="panel">
+      <div class="panel-body pb-2"><h2 class="panel-title mb-0">แมตช์ถัดไป</h2></div>
+      <% if (upcoming.length === 0) { %>
+        <p class="px-3 text-secondary">ยังไม่มีโปรแกรมการแข่งขัน</p>
+      <% } %>
+      <% upcoming.forEach((match) => { %><%- include('../partials/matchRow', { match: { ...match, Status: 'Scheduled' } }) %><% }) %>
+    </section>
+  </div>
+  <div class="col-lg-4">
+    <section class="panel panel-body mb-3">
+      <h2 class="panel-title">จ่าฝูง</h2>
+      <% if (leaders.length === 0) { %>
+        <p class="text-secondary mb-0">ยังไม่มีข้อมูล</p>
+      <% } %>
+      <% leaders.forEach((row) => { %>
+        <div class="leader mb-2">
+          <img class="team-logo-lg" src="<%= fmt.logo(row.LogoUrl) %>" alt="">
+          <div>
+            <a class="fw-bold text-reset" href="/teams/<%= row.TeamID %>"><%= row.TeamName %></a>
+            <div class="small text-secondary"><%= row.Points %> แต้ม จาก <%= row.Played %> นัด</div>
+            <%- include('../partials/form', { form: row.Form }) %>
+          </div>
+        </div>
+      <% }) %>
+      <a class="small" href="/standings">ดูตารางคะแนนทั้งหมด</a>
+    </section>
+    <section class="panel panel-body">
+      <h2 class="panel-title">การแจ้งเตือน</h2>
+      <% if (notifications.length === 0) { %>
+        <p class="text-secondary mb-0">ยังไม่มีการแจ้งเตือน</p>
+      <% } else { %>
+        <ul class="notice-list">
+          <% notifications.forEach((n) => { %>
+            <li><%= n.Message %><span class="notice-time"><%= fmt.formatDateTime(n.CreatedAt) %></span></li>
+          <% }) %>
+        </ul>
+      <% } %>
+    </section>
+  </div>
+</div>
+<%- include('../partials/foot') %>

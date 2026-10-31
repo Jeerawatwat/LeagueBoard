@@ -1,0 +1,19 @@
+<a class="match-row" href="<%= typeof href === 'string' ? href : '/matches/' + match.MatchID %>">
+  <span class="match-team home">
+    <span><%= match.HomeTeamName %></span>
+    <img class="team-logo" src="<%= fmt.logo(match.HomeLogoUrl) %>" alt="">
+  </span>
+  <span class="match-center">
+    <% if (match.Status === 'Finished') { %>
+      <span class="match-score"><%= match.HomeScore %> - <%= match.AwayScore %></span>
+      <span class="match-time d-block"><%= fmt.formatDate(match.KickoffAt) %></span>
+    <% } else { %>
+      <span class="match-score"><%= fmt.formatTime(match.KickoffAt) %></span>
+      <span class="match-time d-block"><%= fmt.formatDate(match.KickoffAt) %></span>
+    <% } %>
+  </span>
+  <span class="match-team">
+    <img class="team-logo" src="<%= fmt.logo(match.AwayLogoUrl) %>" alt="">
+    <span><%= match.AwayTeamName %></span>
+  </span>
+</a>
