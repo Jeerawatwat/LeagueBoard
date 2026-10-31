@@ -1,0 +1,23 @@
+[
+  {
+    "SeasonID": 1,
+    "SeasonName": "ฤดูกาล 2025",
+    "StartDate": "2025-08-02",
+    "EndDate": "2025-11-08",
+    "Status": "Finished"
+  },
+  {
+    "SeasonID": 2,
+    "SeasonName": "ฤดูกาล 2026",
+    "StartDate": "2026-09-12",
+    "EndDate": "2026-12-12",
+    "Status": "Active"
+  },
+  {
+    "SeasonID": 3,
+    "SeasonName": "ฤดูกาล 2027",
+    "StartDate": "2027-08-07",
+    "EndDate": "2027-11-13",
+    "Status": "Upcoming"
+  }
+]

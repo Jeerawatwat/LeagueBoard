@@ -1,0 +1,82 @@
+[
+  {
+    "SeasonID": 1,
+    "TeamID": 1,
+    "JoinedAt": "2025-06-20T10:00:00"
+  },
+  {
+    "SeasonID": 1,
+    "TeamID": 2,
+    "JoinedAt": "2025-06-20T10:00:00"
+  },
+  {
+    "SeasonID": 1,
+    "TeamID": 3,
+    "JoinedAt": "2025-06-20T10:00:00"
+  },
+  {
+    "SeasonID": 1,
+    "TeamID": 4,
+    "JoinedAt": "2025-06-20T10:00:00"
+  },
+  {
+    "SeasonID": 1,
+    "TeamID": 5,
+    "JoinedAt": "2025-06-20T10:00:00"
+  },
+  {
+    "SeasonID": 1,
+    "TeamID": 6,
+    "JoinedAt": "2025-06-20T10:00:00"
+  },
+  {
+    "SeasonID": 1,
+    "TeamID": 7,
+    "JoinedAt": "2025-06-20T10:00:00"
+  },
+  {
+    "SeasonID": 1,
+    "TeamID": 8,
+    "JoinedAt": "2025-06-20T10:00:00"
+  },
+  {
+    "SeasonID": 2,
+    "TeamID": 1,
+    "JoinedAt": "2025-06-20T10:00:00"
+  },
+  {
+    "SeasonID": 2,
+    "TeamID": 2,
+    "JoinedAt": "2025-06-20T10:00:00"
+  },
+  {
+    "SeasonID": 2,
+    "TeamID": 3,
+    "JoinedAt": "2025-06-20T10:00:00"
+  },
+  {
+    "SeasonID": 2,
+    "TeamID": 4,
+    "JoinedAt": "2025-06-20T10:00:00"
+  },
+  {
+    "SeasonID": 2,
+    "TeamID": 5,
+    "JoinedAt": "2025-06-20T10:00:00"
+  },
+  {
+    "SeasonID": 2,
+    "TeamID": 6,
+    "JoinedAt": "2025-06-20T10:00:00"
+  },
+  {
+    "SeasonID": 2,
+    "TeamID": 7,
+    "JoinedAt": "2025-06-20T10:00:00"
+  },
+  {
+    "SeasonID": 2,
+    "TeamID": 8,
+    "JoinedAt": "2025-06-20T10:00:00"
+  }
+]

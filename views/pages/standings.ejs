@@ -1,0 +1,60 @@
+<%- include('../partials/head', { title }) %>
+<div class="page-head">
+  <h1 class="h3 mb-0">ตารางคะแนน</h1>
+  <%- include('../partials/seasonPicker', { seasons, season }) %>
+</div>
+
+<% if (table.length === 0) { %>
+  <div class="empty-state">ฤดูกาลนี้ยังไม่มีทีมเข้าร่วม</div>
+<% } else { %>
+  <div class="panel table-responsive">
+    <table class="table league-table align-middle mb-0">
+      <thead>
+        <tr>
+          <th class="text-center" scope="col">อันดับ</th>
+          <th scope="col">ทีม</th>
+          <th class="num" scope="col">แข่ง</th>
+          <th class="num" scope="col">ชนะ</th>
+          <th class="num" scope="col">เสมอ</th>
+          <th class="num" scope="col">แพ้</th>
+          <th class="num" scope="col">ได้</th>
+          <th class="num" scope="col">เสีย</th>
+          <th class="num" scope="col">ต่าง</th>
+          <th class="num" scope="col">แต้ม</th>
+          <th scope="col">5 นัดล่าสุด</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% table.forEach((row) => { %>
+          <tr>
+            <td class="rank-cell" style="<%= row.ColorHex ? 'box-shadow: inset 4px 0 0 ' + row.ColorHex : '' %>" title="<%= row.ZoneName || '' %>"><%= row.RankNo %></td>
+            <td>
+              <a class="team-link" href="/teams/<%= row.TeamID %>">
+                <img class="team-logo" src="<%= fmt.logo(row.LogoUrl) %>" alt="">
+                <span class="d-none d-sm-inline"><%= row.TeamName %></span>
+                <span class="d-sm-none"><%= row.ShortName %></span>
+              </a>
+            </td>
+            <td class="num"><%= row.Played %></td>
+            <td class="num"><%= row.Won %></td>
+            <td class="num"><%= row.Drawn %></td>
+            <td class="num"><%= row.Lost %></td>
+            <td class="num"><%= row.GF %></td>
+            <td class="num"><%= row.GA %></td>
+            <td class="num"><%= fmt.signed(row.GD) %></td>
+            <td class="num fw-bold"><%= row.Points %></td>
+            <td><%- include('../partials/form', { form: row.Form }) %></td>
+          </tr>
+        <% }) %>
+      </tbody>
+    </table>
+  </div>
+  <% if (zones.length) { %>
+    <ul class="zone-legend">
+      <% zones.forEach(([name, color]) => { %>
+        <li><span class="zone-swatch" style="background: <%= color %>"></span><%= name %></li>
+      <% }) %>
+    </ul>
+  <% } %>
+<% } %>
+<%- include('../partials/foot') %>

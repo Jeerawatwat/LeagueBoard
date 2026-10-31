@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title><%= title %> | LeagueBoard</title>
+  <link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/app.css">
+</head>
+<body>
+<%
+  const links = [['/', 'หน้าแรก'], ['/standings', 'ตารางคะแนน'], ['/matches', 'โปรแกรม/ผลแข่ง'], ['/teams', 'ทีม'], ['/top-scorers', 'ดาวซัลโว'], ['/players/search', 'ค้นหานักเตะ']];
+  const isActive = (href) => (href === '/' ? path === '/' : path.startsWith(href));
+%>
+<nav class="navbar navbar-expand-lg site-nav" data-bs-theme="dark">
+  <div class="container">
+    <a class="navbar-brand" href="/">LeagueBoard</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="เปิดเมนู">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav me-auto">
+        <% links.forEach(([href, label]) => { %>
+          <li class="nav-item"><a class="nav-link <%= isActive(href) ? 'active' : '' %>" href="<%= href %>"><%= label %></a></li>
+        <% }) %>
+      </ul>
+      <ul class="navbar-nav align-items-lg-center gap-lg-1">
+        <% if (currentUser) { %>
+          <% if (currentUser.role === 'team_manager') { %><li class="nav-item"><a class="nav-link" href="/manager">ทีมของฉัน</a></li><% } %>
+          <% if (currentUser.role === 'referee') { %><li class="nav-item"><a class="nav-link" href="/referee">กรอกผล</a></li><% } %>
+          <% if (currentUser.role === 'admin') { %><li class="nav-item"><a class="nav-link" href="/admin/seasons">ผู้ดูแล</a></li><% } %>
+          <li class="nav-item"><span class="navbar-text small me-2"><%= currentUser.displayName %> (<%= fmt.roleLabel(currentUser.role) %>)</span></li>
+          <li class="nav-item">
+            <form method="post" action="/logout">
+              <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+              <button class="btn btn-sm btn-outline-light" type="submit">ออกจากระบบ</button>
+            </form>
+          </li>
+        <% } else { %>
+          <li class="nav-item"><a class="nav-link" href="/login">เข้าสู่ระบบ</a></li>
+          <li class="nav-item"><a class="btn btn-sm btn-light" href="/register">สมัครสมาชิก</a></li>
+        <% } %>
+      </ul>
+    </div>
+  </div>
+</nav>
+<main class="container py-4">
+  <% if (dataSource === 'mock') { %>
+    <p class="mock-note">โหมดสาธิต: ข้อมูลจำลอง ยังไม่ได้เชื่อมฐานข้อมูล</p>
+  <% } %>
+  <% if (flash) { %>
+    <div class="alert alert-<%= flash.type %>" role="alert"><%= flash.message %></div>
+  <% } %>

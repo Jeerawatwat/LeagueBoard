@@ -1,0 +1,7 @@
+<span class="form-dots" aria-label="<%= form ? 'ผล ' + form.length + ' นัดล่าสุด: ' + form : 'ยังไม่มีผล' %>">
+  <% (form || '').split('').forEach((result) => { %>
+    <% if (result === 'W') { %><span class="dot dot-win" title="ชนะ">&#10003;</span>
+    <% } else if (result === 'D') { %><span class="dot dot-draw" title="เสมอ">&minus;</span>
+    <% } else { %><span class="dot dot-loss" title="แพ้">&#10005;</span><% } %>
+  <% }) %>
+</span>

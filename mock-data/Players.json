@@ -1,0 +1,682 @@
+[
+  {
+    "PlayerID": 1,
+    "TeamID": 1,
+    "Nickname": "ต้น",
+    "Position": "GK",
+    "JerseyNo": 1,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 2,
+    "TeamID": 1,
+    "Nickname": "พอร์ช",
+    "Position": "GK",
+    "JerseyNo": 9,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 3,
+    "TeamID": 1,
+    "Nickname": "นัท",
+    "Position": "DF",
+    "JerseyNo": 12,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 4,
+    "TeamID": 1,
+    "Nickname": "บูม",
+    "Position": "DF",
+    "JerseyNo": 14,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 5,
+    "TeamID": 1,
+    "Nickname": "โอม",
+    "Position": "DF",
+    "JerseyNo": 15,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 6,
+    "TeamID": 1,
+    "Nickname": "ม่อน",
+    "Position": "DF",
+    "JerseyNo": 17,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 7,
+    "TeamID": 1,
+    "Nickname": "พีท",
+    "Position": "MF",
+    "JerseyNo": 19,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 8,
+    "TeamID": 1,
+    "Nickname": "กอล์ฟ",
+    "Position": "MF",
+    "JerseyNo": 22,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 9,
+    "TeamID": 1,
+    "Nickname": "ดิว",
+    "Position": "MF",
+    "JerseyNo": 26,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 10,
+    "TeamID": 1,
+    "Nickname": "จิม",
+    "Position": "MF",
+    "JerseyNo": 28,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 11,
+    "TeamID": 1,
+    "Nickname": "ปอนด์",
+    "Position": "FW",
+    "JerseyNo": 35,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 12,
+    "TeamID": 2,
+    "Nickname": "เบียร์",
+    "Position": "GK",
+    "JerseyNo": 1,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 13,
+    "TeamID": 2,
+    "Nickname": "เอก",
+    "Position": "GK",
+    "JerseyNo": 7,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 14,
+    "TeamID": 2,
+    "Nickname": "ปิง",
+    "Position": "DF",
+    "JerseyNo": 9,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 15,
+    "TeamID": 2,
+    "Nickname": "เจ",
+    "Position": "DF",
+    "JerseyNo": 18,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 16,
+    "TeamID": 2,
+    "Nickname": "เจมส์",
+    "Position": "DF",
+    "JerseyNo": 22,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 17,
+    "TeamID": 2,
+    "Nickname": "บอล",
+    "Position": "DF",
+    "JerseyNo": 23,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 18,
+    "TeamID": 2,
+    "Nickname": "มาร์ค",
+    "Position": "MF",
+    "JerseyNo": 27,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 19,
+    "TeamID": 2,
+    "Nickname": "ภูมิ",
+    "Position": "MF",
+    "JerseyNo": 31,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 20,
+    "TeamID": 2,
+    "Nickname": "นนท์",
+    "Position": "MF",
+    "JerseyNo": 32,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 21,
+    "TeamID": 2,
+    "Nickname": "โจ้",
+    "Position": "MF",
+    "JerseyNo": 35,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 22,
+    "TeamID": 3,
+    "Nickname": "แมน",
+    "Position": "GK",
+    "JerseyNo": 1,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 23,
+    "TeamID": 3,
+    "Nickname": "ตูน",
+    "Position": "GK",
+    "JerseyNo": 11,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 24,
+    "TeamID": 3,
+    "Nickname": "ทอย",
+    "Position": "DF",
+    "JerseyNo": 14,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 25,
+    "TeamID": 3,
+    "Nickname": "เต้",
+    "Position": "DF",
+    "JerseyNo": 18,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 26,
+    "TeamID": 3,
+    "Nickname": "ฟิล์ม",
+    "Position": "DF",
+    "JerseyNo": 22,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 27,
+    "TeamID": 3,
+    "Nickname": "แบงค์",
+    "Position": "DF",
+    "JerseyNo": 23,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 28,
+    "TeamID": 3,
+    "Nickname": "แทน",
+    "Position": "MF",
+    "JerseyNo": 25,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 29,
+    "TeamID": 3,
+    "Nickname": "เอิร์ธ",
+    "Position": "MF",
+    "JerseyNo": 28,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 30,
+    "TeamID": 3,
+    "Nickname": "อาร์ม",
+    "Position": "MF",
+    "JerseyNo": 29,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 31,
+    "TeamID": 3,
+    "Nickname": "วิน",
+    "Position": "MF",
+    "JerseyNo": 34,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 32,
+    "TeamID": 3,
+    "Nickname": "ซัน",
+    "Position": "FW",
+    "JerseyNo": 35,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 33,
+    "TeamID": 4,
+    "Nickname": "เมฆ",
+    "Position": "GK",
+    "JerseyNo": 1,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 34,
+    "TeamID": 4,
+    "Nickname": "หมอก",
+    "Position": "GK",
+    "JerseyNo": 2,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 35,
+    "TeamID": 4,
+    "Nickname": "โฟร์ด",
+    "Position": "DF",
+    "JerseyNo": 5,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 36,
+    "TeamID": 4,
+    "Nickname": "ไผ่",
+    "Position": "DF",
+    "JerseyNo": 12,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 37,
+    "TeamID": 4,
+    "Nickname": "ปั้น",
+    "Position": "DF",
+    "JerseyNo": 18,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 38,
+    "TeamID": 4,
+    "Nickname": "ฟลุ๊ค",
+    "Position": "DF",
+    "JerseyNo": 19,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 39,
+    "TeamID": 4,
+    "Nickname": "เก่ง",
+    "Position": "MF",
+    "JerseyNo": 20,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 40,
+    "TeamID": 4,
+    "Nickname": "กันต์",
+    "Position": "MF",
+    "JerseyNo": 21,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 41,
+    "TeamID": 4,
+    "Nickname": "ไอซ์",
+    "Position": "MF",
+    "JerseyNo": 24,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 42,
+    "TeamID": 4,
+    "Nickname": "คิม",
+    "Position": "MF",
+    "JerseyNo": 26,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 43,
+    "TeamID": 4,
+    "Nickname": "ก้อง",
+    "Position": "FW",
+    "JerseyNo": 33,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 44,
+    "TeamID": 5,
+    "Nickname": "ตั้ม",
+    "Position": "GK",
+    "JerseyNo": 1,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 45,
+    "TeamID": 5,
+    "Nickname": "บาส",
+    "Position": "GK",
+    "JerseyNo": 5,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 46,
+    "TeamID": 5,
+    "Nickname": "ไนท์",
+    "Position": "DF",
+    "JerseyNo": 11,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 47,
+    "TeamID": 5,
+    "Nickname": "หมอก",
+    "Position": "DF",
+    "JerseyNo": 13,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 48,
+    "TeamID": 5,
+    "Nickname": "โจ้",
+    "Position": "DF",
+    "JerseyNo": 14,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 49,
+    "TeamID": 5,
+    "Nickname": "เอก",
+    "Position": "DF",
+    "JerseyNo": 15,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 50,
+    "TeamID": 5,
+    "Nickname": "อาร์ม",
+    "Position": "MF",
+    "JerseyNo": 18,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 51,
+    "TeamID": 5,
+    "Nickname": "ฟิล์ม",
+    "Position": "MF",
+    "JerseyNo": 23,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 52,
+    "TeamID": 5,
+    "Nickname": "บาส",
+    "Position": "MF",
+    "JerseyNo": 32,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 53,
+    "TeamID": 5,
+    "Nickname": "กันต์",
+    "Position": "MF",
+    "JerseyNo": 35,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 54,
+    "TeamID": 5,
+    "Nickname": "ตูน",
+    "Position": "FW",
+    "JerseyNo": 36,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 55,
+    "TeamID": 5,
+    "Nickname": "ก้อง",
+    "Position": "FW",
+    "JerseyNo": 39,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 56,
+    "TeamID": 6,
+    "Nickname": "ฟลุ๊ค",
+    "Position": "GK",
+    "JerseyNo": 1,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 57,
+    "TeamID": 6,
+    "Nickname": "ไนท์",
+    "Position": "GK",
+    "JerseyNo": 2,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 58,
+    "TeamID": 6,
+    "Nickname": "โอม",
+    "Position": "DF",
+    "JerseyNo": 15,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 59,
+    "TeamID": 6,
+    "Nickname": "เจมส์",
+    "Position": "DF",
+    "JerseyNo": 19,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 60,
+    "TeamID": 6,
+    "Nickname": "ตั้ม",
+    "Position": "DF",
+    "JerseyNo": 21,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 61,
+    "TeamID": 6,
+    "Nickname": "แมน",
+    "Position": "DF",
+    "JerseyNo": 23,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 62,
+    "TeamID": 6,
+    "Nickname": "ปั้น",
+    "Position": "MF",
+    "JerseyNo": 28,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 63,
+    "TeamID": 6,
+    "Nickname": "พีท",
+    "Position": "MF",
+    "JerseyNo": 33,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 64,
+    "TeamID": 6,
+    "Nickname": "ปิง",
+    "Position": "MF",
+    "JerseyNo": 37,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 65,
+    "TeamID": 6,
+    "Nickname": "เจ",
+    "Position": "MF",
+    "JerseyNo": 39,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 66,
+    "TeamID": 7,
+    "Nickname": "ภูมิ",
+    "Position": "GK",
+    "JerseyNo": 1,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 67,
+    "TeamID": 7,
+    "Nickname": "เมฆ",
+    "Position": "GK",
+    "JerseyNo": 9,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 68,
+    "TeamID": 7,
+    "Nickname": "บอล",
+    "Position": "DF",
+    "JerseyNo": 10,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 69,
+    "TeamID": 7,
+    "Nickname": "ซัน",
+    "Position": "DF",
+    "JerseyNo": 11,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 70,
+    "TeamID": 7,
+    "Nickname": "เต้",
+    "Position": "DF",
+    "JerseyNo": 12,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 71,
+    "TeamID": 7,
+    "Nickname": "แทน",
+    "Position": "DF",
+    "JerseyNo": 13,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 72,
+    "TeamID": 7,
+    "Nickname": "เอิร์ธ",
+    "Position": "MF",
+    "JerseyNo": 15,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 73,
+    "TeamID": 7,
+    "Nickname": "ต้น",
+    "Position": "MF",
+    "JerseyNo": 22,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 74,
+    "TeamID": 7,
+    "Nickname": "โฟร์ด",
+    "Position": "MF",
+    "JerseyNo": 29,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 75,
+    "TeamID": 7,
+    "Nickname": "มาร์ค",
+    "Position": "MF",
+    "JerseyNo": 40,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 76,
+    "TeamID": 8,
+    "Nickname": "แบงค์",
+    "Position": "GK",
+    "JerseyNo": 1,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 77,
+    "TeamID": 8,
+    "Nickname": "บูม",
+    "Position": "GK",
+    "JerseyNo": 3,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 78,
+    "TeamID": 8,
+    "Nickname": "เก่ง",
+    "Position": "DF",
+    "JerseyNo": 4,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 79,
+    "TeamID": 8,
+    "Nickname": "นัท",
+    "Position": "DF",
+    "JerseyNo": 9,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 80,
+    "TeamID": 8,
+    "Nickname": "พอร์ช",
+    "Position": "DF",
+    "JerseyNo": 10,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 81,
+    "TeamID": 8,
+    "Nickname": "ทอย",
+    "Position": "DF",
+    "JerseyNo": 11,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 82,
+    "TeamID": 8,
+    "Nickname": "ดิว",
+    "Position": "MF",
+    "JerseyNo": 19,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 83,
+    "TeamID": 8,
+    "Nickname": "ปอนด์",
+    "Position": "MF",
+    "JerseyNo": 37,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 84,
+    "TeamID": 8,
+    "Nickname": "ม่อน",
+    "Position": "MF",
+    "JerseyNo": 38,
+    "CreatedAt": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": 85,
+    "TeamID": 8,
+    "Nickname": "นนท์",
+    "Position": "MF",
+    "JerseyNo": 39,
+    "CreatedAt": "2025-06-25T10:00:00"
+  }
+]

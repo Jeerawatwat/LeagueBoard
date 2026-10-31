@@ -1,0 +1,37 @@
+[
+  {
+    "NotificationID": 1,
+    "MatchID": 81,
+    "Type": "MatchFinished",
+    "Message": "จบการแข่งขัน: วิศวกรรมศาสตร์ เอฟซี 2-4 วิทยาศาสตร์ เอฟซี",
+    "CreatedAt": "2026-10-24T17:00:00"
+  },
+  {
+    "NotificationID": 2,
+    "MatchID": 82,
+    "Type": "MatchFinished",
+    "Message": "จบการแข่งขัน: บริหารธุรกิจ เอฟซี 2-1 มนุษยศาสตร์ เอฟซี",
+    "CreatedAt": "2026-10-24T19:00:00"
+  },
+  {
+    "NotificationID": 3,
+    "MatchID": 83,
+    "Type": "MatchFinished",
+    "Message": "จบการแข่งขัน: สถาปัตยกรรมศาสตร์ เอฟซี 0-0 แพทยศาสตร์ เอฟซี",
+    "CreatedAt": "2026-10-24T21:00:00"
+  },
+  {
+    "NotificationID": 4,
+    "MatchID": 84,
+    "Type": "MatchFinished",
+    "Message": "จบการแข่งขัน: เกษตรศาสตร์ เอฟซี 2-2 นิติศาสตร์ เอฟซี",
+    "CreatedAt": "2026-10-24T23:00:00"
+  },
+  {
+    "NotificationID": 5,
+    "MatchID": 81,
+    "Type": "ResultCorrected",
+    "Message": "แก้ไขผล: วิศวกรรมศาสตร์ เอฟซี 1-4 วิทยาศาสตร์ เอฟซี",
+    "CreatedAt": "2026-10-24T20:00:00"
+  }
+]

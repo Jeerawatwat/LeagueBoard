@@ -1,0 +1,62 @@
+[
+  {
+    "AuditID": 1,
+    "MatchID": 81,
+    "OldHomeScore": null,
+    "OldAwayScore": null,
+    "NewHomeScore": 2,
+    "NewAwayScore": 4,
+    "ChangeType": "UPDATE",
+    "ChangedBy": 2,
+    "ChangedByLogin": "lb_referee",
+    "ChangedAt": "2026-10-24T17:00:00"
+  },
+  {
+    "AuditID": 2,
+    "MatchID": 82,
+    "OldHomeScore": null,
+    "OldAwayScore": null,
+    "NewHomeScore": 2,
+    "NewAwayScore": 1,
+    "ChangeType": "UPDATE",
+    "ChangedBy": 2,
+    "ChangedByLogin": "lb_referee",
+    "ChangedAt": "2026-10-24T19:00:00"
+  },
+  {
+    "AuditID": 3,
+    "MatchID": 83,
+    "OldHomeScore": null,
+    "OldAwayScore": null,
+    "NewHomeScore": 0,
+    "NewAwayScore": 0,
+    "ChangeType": "UPDATE",
+    "ChangedBy": 2,
+    "ChangedByLogin": "lb_referee",
+    "ChangedAt": "2026-10-24T21:00:00"
+  },
+  {
+    "AuditID": 4,
+    "MatchID": 84,
+    "OldHomeScore": null,
+    "OldAwayScore": null,
+    "NewHomeScore": 2,
+    "NewAwayScore": 2,
+    "ChangeType": "UPDATE",
+    "ChangedBy": 2,
+    "ChangedByLogin": "lb_referee",
+    "ChangedAt": "2026-10-24T23:00:00"
+  },
+  {
+    "AuditID": 5,
+    "MatchID": 81,
+    "OldHomeScore": 2,
+    "OldAwayScore": 4,
+    "NewHomeScore": 1,
+    "NewAwayScore": 4,
+    "ChangeType": "UPDATE",
+    "ChangedBy": 2,
+    "ChangedByLogin": "lb_referee",
+    "ChangedAt": "2026-10-24T20:00:00"
+  }
+]

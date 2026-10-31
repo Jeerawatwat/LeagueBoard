@@ -1,0 +1,178 @@
+[
+  {
+    "SeasonID": 1,
+    "TeamID": 1,
+    "Played": 14,
+    "Won": 2,
+    "Drawn": 3,
+    "Lost": 9,
+    "GF": 22,
+    "GA": 37,
+    "Points": 9
+  },
+  {
+    "SeasonID": 1,
+    "TeamID": 2,
+    "Played": 14,
+    "Won": 9,
+    "Drawn": 2,
+    "Lost": 3,
+    "GF": 39,
+    "GA": 23,
+    "Points": 29
+  },
+  {
+    "SeasonID": 1,
+    "TeamID": 3,
+    "Played": 14,
+    "Won": 8,
+    "Drawn": 4,
+    "Lost": 2,
+    "GF": 37,
+    "GA": 24,
+    "Points": 28
+  },
+  {
+    "SeasonID": 1,
+    "TeamID": 4,
+    "Played": 14,
+    "Won": 7,
+    "Drawn": 0,
+    "Lost": 7,
+    "GF": 24,
+    "GA": 26,
+    "Points": 21
+  },
+  {
+    "SeasonID": 1,
+    "TeamID": 5,
+    "Played": 14,
+    "Won": 5,
+    "Drawn": 3,
+    "Lost": 6,
+    "GF": 30,
+    "GA": 30,
+    "Points": 18
+  },
+  {
+    "SeasonID": 1,
+    "TeamID": 6,
+    "Played": 14,
+    "Won": 5,
+    "Drawn": 4,
+    "Lost": 5,
+    "GF": 22,
+    "GA": 25,
+    "Points": 19
+  },
+  {
+    "SeasonID": 1,
+    "TeamID": 7,
+    "Played": 14,
+    "Won": 5,
+    "Drawn": 4,
+    "Lost": 5,
+    "GF": 27,
+    "GA": 29,
+    "Points": 19
+  },
+  {
+    "SeasonID": 1,
+    "TeamID": 8,
+    "Played": 14,
+    "Won": 5,
+    "Drawn": 0,
+    "Lost": 9,
+    "GF": 22,
+    "GA": 29,
+    "Points": 15
+  },
+  {
+    "SeasonID": 2,
+    "TeamID": 1,
+    "Played": 7,
+    "Won": 2,
+    "Drawn": 1,
+    "Lost": 4,
+    "GF": 15,
+    "GA": 17,
+    "Points": 7
+  },
+  {
+    "SeasonID": 2,
+    "TeamID": 2,
+    "Played": 7,
+    "Won": 5,
+    "Drawn": 2,
+    "Lost": 0,
+    "GF": 14,
+    "GA": 7,
+    "Points": 17
+  },
+  {
+    "SeasonID": 2,
+    "TeamID": 3,
+    "Played": 7,
+    "Won": 2,
+    "Drawn": 1,
+    "Lost": 4,
+    "GF": 10,
+    "GA": 14,
+    "Points": 7
+  },
+  {
+    "SeasonID": 2,
+    "TeamID": 4,
+    "Played": 7,
+    "Won": 2,
+    "Drawn": 3,
+    "Lost": 2,
+    "GF": 9,
+    "GA": 9,
+    "Points": 9
+  },
+  {
+    "SeasonID": 2,
+    "TeamID": 5,
+    "Played": 7,
+    "Won": 2,
+    "Drawn": 3,
+    "Lost": 2,
+    "GF": 16,
+    "GA": 19,
+    "Points": 9
+  },
+  {
+    "SeasonID": 2,
+    "TeamID": 6,
+    "Played": 7,
+    "Won": 5,
+    "Drawn": 1,
+    "Lost": 1,
+    "GF": 17,
+    "GA": 10,
+    "Points": 16
+  },
+  {
+    "SeasonID": 2,
+    "TeamID": 7,
+    "Played": 7,
+    "Won": 2,
+    "Drawn": 1,
+    "Lost": 4,
+    "GF": 9,
+    "GA": 9,
+    "Points": 7
+  },
+  {
+    "SeasonID": 2,
+    "TeamID": 8,
+    "Played": 7,
+    "Won": 1,
+    "Drawn": 2,
+    "Lost": 4,
+    "GF": 11,
+    "GA": 16,
+    "Points": 5
+  }
+]

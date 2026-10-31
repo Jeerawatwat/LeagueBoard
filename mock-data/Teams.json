@@ -1,0 +1,122 @@
+[
+  {
+    "TeamID": 1,
+    "TeamName": "วิศวกรรมศาสตร์ เอฟซี",
+    "ShortName": "ENG",
+    "LogoUrl": "/logos/eng.svg",
+    "Status": "Approved",
+    "CreatedBy": 3,
+    "RequestedSeasonID": 1,
+    "ReviewedBy": 1,
+    "ReviewedAt": "2025-06-20T10:00:00",
+    "CreatedAt": "2025-06-15T10:00:00"
+  },
+  {
+    "TeamID": 2,
+    "TeamName": "วิทยาศาสตร์ เอฟซี",
+    "ShortName": "SCI",
+    "LogoUrl": "/logos/sci.svg",
+    "Status": "Approved",
+    "CreatedBy": 4,
+    "RequestedSeasonID": 1,
+    "ReviewedBy": 1,
+    "ReviewedAt": "2025-06-20T10:00:00",
+    "CreatedAt": "2025-06-15T10:00:00"
+  },
+  {
+    "TeamID": 3,
+    "TeamName": "บริหารธุรกิจ เอฟซี",
+    "ShortName": "BUS",
+    "LogoUrl": "/logos/bus.svg",
+    "Status": "Approved",
+    "CreatedBy": 4,
+    "RequestedSeasonID": 1,
+    "ReviewedBy": 1,
+    "ReviewedAt": "2025-06-20T10:00:00",
+    "CreatedAt": "2025-06-15T10:00:00"
+  },
+  {
+    "TeamID": 4,
+    "TeamName": "สถาปัตยกรรมศาสตร์ เอฟซี",
+    "ShortName": "ARC",
+    "LogoUrl": "/logos/arc.svg",
+    "Status": "Approved",
+    "CreatedBy": 4,
+    "RequestedSeasonID": 1,
+    "ReviewedBy": 1,
+    "ReviewedAt": "2025-06-20T10:00:00",
+    "CreatedAt": "2025-06-15T10:00:00"
+  },
+  {
+    "TeamID": 5,
+    "TeamName": "เกษตรศาสตร์ เอฟซี",
+    "ShortName": "AGR",
+    "LogoUrl": "/logos/agr.svg",
+    "Status": "Approved",
+    "CreatedBy": 5,
+    "RequestedSeasonID": 1,
+    "ReviewedBy": 1,
+    "ReviewedAt": "2025-06-20T10:00:00",
+    "CreatedAt": "2025-06-15T10:00:00"
+  },
+  {
+    "TeamID": 6,
+    "TeamName": "นิติศาสตร์ เอฟซี",
+    "ShortName": "LAW",
+    "LogoUrl": "/logos/law.svg",
+    "Status": "Approved",
+    "CreatedBy": 5,
+    "RequestedSeasonID": 1,
+    "ReviewedBy": 1,
+    "ReviewedAt": "2025-06-20T10:00:00",
+    "CreatedAt": "2025-06-15T10:00:00"
+  },
+  {
+    "TeamID": 7,
+    "TeamName": "แพทยศาสตร์ เอฟซี",
+    "ShortName": "MED",
+    "LogoUrl": "/logos/med.svg",
+    "Status": "Approved",
+    "CreatedBy": 5,
+    "RequestedSeasonID": 1,
+    "ReviewedBy": 1,
+    "ReviewedAt": "2025-06-20T10:00:00",
+    "CreatedAt": "2025-06-15T10:00:00"
+  },
+  {
+    "TeamID": 8,
+    "TeamName": "มนุษยศาสตร์ เอฟซี",
+    "ShortName": "HUM",
+    "LogoUrl": "/logos/hum.svg",
+    "Status": "Approved",
+    "CreatedBy": 6,
+    "RequestedSeasonID": 1,
+    "ReviewedBy": 1,
+    "ReviewedAt": "2025-06-20T10:00:00",
+    "CreatedAt": "2025-06-15T10:00:00"
+  },
+  {
+    "TeamID": 9,
+    "TeamName": "ศึกษาศาสตร์ เอฟซี",
+    "ShortName": "EDU",
+    "LogoUrl": "/logos/edu.svg",
+    "Status": "Pending",
+    "CreatedBy": 3,
+    "RequestedSeasonID": 3,
+    "ReviewedBy": null,
+    "ReviewedAt": null,
+    "CreatedAt": "2026-10-20T10:00:00"
+  },
+  {
+    "TeamID": 10,
+    "TeamName": "เศรษฐศาสตร์ เอฟซี",
+    "ShortName": "ECO",
+    "LogoUrl": "/logos/eco.svg",
+    "Status": "Pending",
+    "CreatedBy": 6,
+    "RequestedSeasonID": 3,
+    "ReviewedBy": null,
+    "ReviewedAt": null,
+    "CreatedAt": "2026-10-20T10:00:00"
+  }
+]

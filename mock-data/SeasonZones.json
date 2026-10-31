@@ -1,0 +1,74 @@
+[
+  {
+    "ZoneID": 1,
+    "SeasonID": 1,
+    "ZoneName": "เข้ารอบชิงชนะเลิศ",
+    "FromRank": 1,
+    "ToRank": 2,
+    "ColorHex": "#1a73e8"
+  },
+  {
+    "ZoneID": 2,
+    "SeasonID": 1,
+    "ZoneName": "เพลย์ออฟ",
+    "FromRank": 3,
+    "ToRank": 4,
+    "ColorHex": "#f29900"
+  },
+  {
+    "ZoneID": 3,
+    "SeasonID": 1,
+    "ZoneName": "ตกรอบแบ่งกลุ่ม",
+    "FromRank": 8,
+    "ToRank": 8,
+    "ColorHex": "#d93025"
+  },
+  {
+    "ZoneID": 4,
+    "SeasonID": 2,
+    "ZoneName": "เข้ารอบชิงชนะเลิศ",
+    "FromRank": 1,
+    "ToRank": 2,
+    "ColorHex": "#1a73e8"
+  },
+  {
+    "ZoneID": 5,
+    "SeasonID": 2,
+    "ZoneName": "เพลย์ออฟ",
+    "FromRank": 3,
+    "ToRank": 4,
+    "ColorHex": "#f29900"
+  },
+  {
+    "ZoneID": 6,
+    "SeasonID": 2,
+    "ZoneName": "ตกรอบแบ่งกลุ่ม",
+    "FromRank": 8,
+    "ToRank": 8,
+    "ColorHex": "#d93025"
+  },
+  {
+    "ZoneID": 7,
+    "SeasonID": 3,
+    "ZoneName": "เข้ารอบชิงชนะเลิศ",
+    "FromRank": 1,
+    "ToRank": 2,
+    "ColorHex": "#1a73e8"
+  },
+  {
+    "ZoneID": 8,
+    "SeasonID": 3,
+    "ZoneName": "เพลย์ออฟ",
+    "FromRank": 3,
+    "ToRank": 4,
+    "ColorHex": "#f29900"
+  },
+  {
+    "ZoneID": 9,
+    "SeasonID": 3,
+    "ZoneName": "ตกรอบแบ่งกลุ่ม",
+    "FromRank": 8,
+    "ToRank": 8,
+    "ColorHex": "#d93025"
+  }
+]

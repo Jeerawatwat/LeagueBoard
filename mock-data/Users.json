@@ -1,0 +1,50 @@
+[
+  {
+    "UserID": 1,
+    "Username": "admin",
+    "PasswordHash": "$2b$10$pTGJif7W8p.nTYtQ7myqh.zZ9kHeciHC27k4LNkT6SoXtC8VxnWC6",
+    "DisplayName": "ผู้ดูแลลีก",
+    "Role": "admin",
+    "CreatedAt": "2025-06-01T09:00:00"
+  },
+  {
+    "UserID": 2,
+    "Username": "referee",
+    "PasswordHash": "$2b$10$QvDaFJ63TIThXZTC0xydYeXnUJA1QhSo.G.7wra8iTYqc5DUPZTHe",
+    "DisplayName": "ผู้ตัดสินหลัก",
+    "Role": "referee",
+    "CreatedAt": "2025-06-01T09:00:00"
+  },
+  {
+    "UserID": 3,
+    "Username": "manager",
+    "PasswordHash": "$2b$10$GhEcD3AAIzdJd1X/mF/ziOQ.tb/VJQPSwyvU5NjCBiVpw3Nd6HGwS",
+    "DisplayName": "ผู้จัดการทีมวิศวะ",
+    "Role": "team_manager",
+    "CreatedAt": "2025-06-01T09:00:00"
+  },
+  {
+    "UserID": 4,
+    "Username": "manager2",
+    "PasswordHash": "$2b$10$GhEcD3AAIzdJd1X/mF/ziOQ.tb/VJQPSwyvU5NjCBiVpw3Nd6HGwS",
+    "DisplayName": "ผู้จัดการกลุ่มสอง",
+    "Role": "team_manager",
+    "CreatedAt": "2025-06-01T09:00:00"
+  },
+  {
+    "UserID": 5,
+    "Username": "manager3",
+    "PasswordHash": "$2b$10$GhEcD3AAIzdJd1X/mF/ziOQ.tb/VJQPSwyvU5NjCBiVpw3Nd6HGwS",
+    "DisplayName": "ผู้จัดการกลุ่มสาม",
+    "Role": "team_manager",
+    "CreatedAt": "2025-06-01T09:00:00"
+  },
+  {
+    "UserID": 6,
+    "Username": "manager4",
+    "PasswordHash": "$2b$10$GhEcD3AAIzdJd1X/mF/ziOQ.tb/VJQPSwyvU5NjCBiVpw3Nd6HGwS",
+    "DisplayName": "ผู้จัดการกลุ่มสี่",
+    "Role": "team_manager",
+    "CreatedAt": "2025-06-01T09:00:00"
+  }
+]

@@ -1,0 +1,9 @@
+<form method="get" class="season-picker">
+  <label class="form-label mb-0 small text-secondary" for="seasonSelect">ฤดูกาล</label>
+  <select class="form-select form-select-sm" id="seasonSelect" name="season" onchange="this.form.submit()">
+    <% seasons.forEach((s) => { %>
+      <option value="<%= s.SeasonID %>" <%= season && s.SeasonID === season.SeasonID ? 'selected' : '' %>><%= s.SeasonName %> (<%= fmt.seasonStatusLabel(s.Status) %>)</option>
+    <% }) %>
+  </select>
+  <noscript><button class="btn btn-sm btn-primary" type="submit">เลือก</button></noscript>
+</form>

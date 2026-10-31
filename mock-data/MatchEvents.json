@@ -1,0 +1,4592 @@
+[
+  {
+    "EventID": 1,
+    "MatchID": 1,
+    "PlayerID": 7,
+    "EventType": "Goal",
+    "Minute": 45,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-02T17:00:00"
+  },
+  {
+    "EventID": 2,
+    "MatchID": 1,
+    "PlayerID": 11,
+    "EventType": "Goal",
+    "Minute": 64,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-02T17:00:00"
+  },
+  {
+    "EventID": 3,
+    "MatchID": 1,
+    "PlayerID": 85,
+    "EventType": "Goal",
+    "Minute": 55,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-02T17:00:00"
+  },
+  {
+    "EventID": 4,
+    "MatchID": 1,
+    "PlayerID": 78,
+    "EventType": "Yellow",
+    "Minute": 43,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-02T17:00:00"
+  },
+  {
+    "EventID": 5,
+    "MatchID": 1,
+    "PlayerID": 81,
+    "EventType": "Yellow",
+    "Minute": 81,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-02T17:00:00"
+  },
+  {
+    "EventID": 6,
+    "MatchID": 2,
+    "PlayerID": 14,
+    "EventType": "Goal",
+    "Minute": 38,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-02T19:00:00"
+  },
+  {
+    "EventID": 7,
+    "MatchID": 2,
+    "PlayerID": 71,
+    "EventType": "Goal",
+    "Minute": 15,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-02T19:00:00"
+  },
+  {
+    "EventID": 8,
+    "MatchID": 2,
+    "PlayerID": 70,
+    "EventType": "Goal",
+    "Minute": 71,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-02T19:00:00"
+  },
+  {
+    "EventID": 9,
+    "MatchID": 3,
+    "PlayerID": 29,
+    "EventType": "Goal",
+    "Minute": 41,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-02T21:00:00"
+  },
+  {
+    "EventID": 10,
+    "MatchID": 3,
+    "PlayerID": 61,
+    "EventType": "Goal",
+    "Minute": 86,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-02T21:00:00"
+  },
+  {
+    "EventID": 11,
+    "MatchID": 3,
+    "PlayerID": 62,
+    "EventType": "Yellow",
+    "Minute": 60,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-02T21:00:00"
+  },
+  {
+    "EventID": 12,
+    "MatchID": 4,
+    "PlayerID": 43,
+    "EventType": "Goal",
+    "Minute": 67,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-02T23:00:00"
+  },
+  {
+    "EventID": 13,
+    "MatchID": 4,
+    "PlayerID": 43,
+    "EventType": "Goal",
+    "Minute": 11,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-02T23:00:00"
+  },
+  {
+    "EventID": 14,
+    "MatchID": 4,
+    "PlayerID": 42,
+    "EventType": "Yellow",
+    "Minute": 84,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-02T23:00:00"
+  },
+  {
+    "EventID": 15,
+    "MatchID": 5,
+    "PlayerID": 73,
+    "EventType": "Goal",
+    "Minute": 70,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-09T17:00:00"
+  },
+  {
+    "EventID": 16,
+    "MatchID": 5,
+    "PlayerID": 75,
+    "EventType": "Yellow",
+    "Minute": 14,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-09T17:00:00"
+  },
+  {
+    "EventID": 17,
+    "MatchID": 5,
+    "PlayerID": 71,
+    "EventType": "Yellow",
+    "Minute": 75,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-09T17:00:00"
+  },
+  {
+    "EventID": 18,
+    "MatchID": 5,
+    "PlayerID": 11,
+    "EventType": "Goal",
+    "Minute": 79,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-09T17:00:00"
+  },
+  {
+    "EventID": 19,
+    "MatchID": 6,
+    "PlayerID": 58,
+    "EventType": "Goal",
+    "Minute": 9,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-09T19:00:00"
+  },
+  {
+    "EventID": 20,
+    "MatchID": 6,
+    "PlayerID": 59,
+    "EventType": "Yellow",
+    "Minute": 11,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-09T19:00:00"
+  },
+  {
+    "EventID": 21,
+    "MatchID": 6,
+    "PlayerID": 59,
+    "EventType": "Yellow",
+    "Minute": 43,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-09T19:00:00"
+  },
+  {
+    "EventID": 22,
+    "MatchID": 6,
+    "PlayerID": 57,
+    "EventType": "Red",
+    "Minute": 57,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-09T19:00:00"
+  },
+  {
+    "EventID": 23,
+    "MatchID": 7,
+    "PlayerID": 51,
+    "EventType": "Goal",
+    "Minute": 63,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-09T21:00:00"
+  },
+  {
+    "EventID": 24,
+    "MatchID": 7,
+    "PlayerID": 48,
+    "EventType": "Yellow",
+    "Minute": 24,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-09T21:00:00"
+  },
+  {
+    "EventID": 25,
+    "MatchID": 7,
+    "PlayerID": 16,
+    "EventType": "Goal",
+    "Minute": 16,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-09T21:00:00"
+  },
+  {
+    "EventID": 26,
+    "MatchID": 7,
+    "PlayerID": 18,
+    "EventType": "Goal",
+    "Minute": 1,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-09T21:00:00"
+  },
+  {
+    "EventID": 27,
+    "MatchID": 7,
+    "PlayerID": 17,
+    "EventType": "Goal",
+    "Minute": 74,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-09T21:00:00"
+  },
+  {
+    "EventID": 28,
+    "MatchID": 7,
+    "PlayerID": 17,
+    "EventType": "Yellow",
+    "Minute": 55,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-09T21:00:00"
+  },
+  {
+    "EventID": 29,
+    "MatchID": 8,
+    "PlayerID": 42,
+    "EventType": "Goal",
+    "Minute": 16,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-09T23:00:00"
+  },
+  {
+    "EventID": 30,
+    "MatchID": 8,
+    "PlayerID": 42,
+    "EventType": "Goal",
+    "Minute": 14,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-09T23:00:00"
+  },
+  {
+    "EventID": 31,
+    "MatchID": 8,
+    "PlayerID": 36,
+    "EventType": "Goal",
+    "Minute": 33,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-09T23:00:00"
+  },
+  {
+    "EventID": 32,
+    "MatchID": 8,
+    "PlayerID": 43,
+    "EventType": "Goal",
+    "Minute": 7,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-09T23:00:00"
+  },
+  {
+    "EventID": 33,
+    "MatchID": 8,
+    "PlayerID": 29,
+    "EventType": "Goal",
+    "Minute": 17,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-09T23:00:00"
+  },
+  {
+    "EventID": 34,
+    "MatchID": 8,
+    "PlayerID": 29,
+    "EventType": "Goal",
+    "Minute": 77,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-09T23:00:00"
+  },
+  {
+    "EventID": 35,
+    "MatchID": 8,
+    "PlayerID": 30,
+    "EventType": "Goal",
+    "Minute": 90,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-09T23:00:00"
+  },
+  {
+    "EventID": 36,
+    "MatchID": 9,
+    "PlayerID": 8,
+    "EventType": "Goal",
+    "Minute": 52,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-16T17:00:00"
+  },
+  {
+    "EventID": 37,
+    "MatchID": 9,
+    "PlayerID": 10,
+    "EventType": "Yellow",
+    "Minute": 45,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-16T17:00:00"
+  },
+  {
+    "EventID": 38,
+    "MatchID": 9,
+    "PlayerID": 60,
+    "EventType": "Goal",
+    "Minute": 69,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-16T17:00:00"
+  },
+  {
+    "EventID": 39,
+    "MatchID": 9,
+    "PlayerID": 64,
+    "EventType": "Goal",
+    "Minute": 21,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-16T17:00:00"
+  },
+  {
+    "EventID": 40,
+    "MatchID": 9,
+    "PlayerID": 59,
+    "EventType": "Goal",
+    "Minute": 86,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-16T17:00:00"
+  },
+  {
+    "EventID": 41,
+    "MatchID": 9,
+    "PlayerID": 65,
+    "EventType": "Yellow",
+    "Minute": 28,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-16T17:00:00"
+  },
+  {
+    "EventID": 42,
+    "MatchID": 9,
+    "PlayerID": 59,
+    "EventType": "Yellow",
+    "Minute": 74,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-16T17:00:00"
+  },
+  {
+    "EventID": 43,
+    "MatchID": 10,
+    "PlayerID": 72,
+    "EventType": "Goal",
+    "Minute": 65,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-16T19:00:00"
+  },
+  {
+    "EventID": 44,
+    "MatchID": 10,
+    "PlayerID": 71,
+    "EventType": "Goal",
+    "Minute": 76,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-16T19:00:00"
+  },
+  {
+    "EventID": 45,
+    "MatchID": 10,
+    "PlayerID": 75,
+    "EventType": "Goal",
+    "Minute": 72,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-16T19:00:00"
+  },
+  {
+    "EventID": 46,
+    "MatchID": 10,
+    "PlayerID": 69,
+    "EventType": "Goal",
+    "Minute": 58,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-16T19:00:00"
+  },
+  {
+    "EventID": 47,
+    "MatchID": 10,
+    "PlayerID": 48,
+    "EventType": "Goal",
+    "Minute": 75,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-16T19:00:00"
+  },
+  {
+    "EventID": 48,
+    "MatchID": 10,
+    "PlayerID": 54,
+    "EventType": "Goal",
+    "Minute": 87,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-16T19:00:00"
+  },
+  {
+    "EventID": 49,
+    "MatchID": 10,
+    "PlayerID": 53,
+    "EventType": "Goal",
+    "Minute": 11,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-16T19:00:00"
+  },
+  {
+    "EventID": 50,
+    "MatchID": 10,
+    "PlayerID": 54,
+    "EventType": "Goal",
+    "Minute": 66,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-16T19:00:00"
+  },
+  {
+    "EventID": 51,
+    "MatchID": 10,
+    "PlayerID": 49,
+    "EventType": "Yellow",
+    "Minute": 14,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-16T19:00:00"
+  },
+  {
+    "EventID": 52,
+    "MatchID": 10,
+    "PlayerID": 48,
+    "EventType": "Yellow",
+    "Minute": 90,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-16T19:00:00"
+  },
+  {
+    "EventID": 53,
+    "MatchID": 11,
+    "PlayerID": 81,
+    "EventType": "Goal",
+    "Minute": 17,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-16T21:00:00"
+  },
+  {
+    "EventID": 54,
+    "MatchID": 11,
+    "PlayerID": 84,
+    "EventType": "Goal",
+    "Minute": 2,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-16T21:00:00"
+  },
+  {
+    "EventID": 55,
+    "MatchID": 11,
+    "PlayerID": 76,
+    "EventType": "Yellow",
+    "Minute": 17,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-16T21:00:00"
+  },
+  {
+    "EventID": 56,
+    "MatchID": 11,
+    "PlayerID": 76,
+    "EventType": "Yellow",
+    "Minute": 77,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-16T21:00:00"
+  },
+  {
+    "EventID": 57,
+    "MatchID": 11,
+    "PlayerID": 42,
+    "EventType": "Goal",
+    "Minute": 42,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-16T21:00:00"
+  },
+  {
+    "EventID": 58,
+    "MatchID": 11,
+    "PlayerID": 42,
+    "EventType": "Goal",
+    "Minute": 56,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-16T21:00:00"
+  },
+  {
+    "EventID": 59,
+    "MatchID": 11,
+    "PlayerID": 42,
+    "EventType": "Goal",
+    "Minute": 46,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-16T21:00:00"
+  },
+  {
+    "EventID": 60,
+    "MatchID": 11,
+    "PlayerID": 37,
+    "EventType": "Yellow",
+    "Minute": 20,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-16T21:00:00"
+  },
+  {
+    "EventID": 61,
+    "MatchID": 11,
+    "PlayerID": 38,
+    "EventType": "Red",
+    "Minute": 64,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-16T21:00:00"
+  },
+  {
+    "EventID": 62,
+    "MatchID": 12,
+    "PlayerID": 18,
+    "EventType": "Goal",
+    "Minute": 45,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-16T23:00:00"
+  },
+  {
+    "EventID": 63,
+    "MatchID": 12,
+    "PlayerID": 21,
+    "EventType": "Goal",
+    "Minute": 21,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-16T23:00:00"
+  },
+  {
+    "EventID": 64,
+    "MatchID": 12,
+    "PlayerID": 17,
+    "EventType": "Goal",
+    "Minute": 7,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-16T23:00:00"
+  },
+  {
+    "EventID": 65,
+    "MatchID": 12,
+    "PlayerID": 19,
+    "EventType": "Goal",
+    "Minute": 18,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-16T23:00:00"
+  },
+  {
+    "EventID": 66,
+    "MatchID": 12,
+    "PlayerID": 15,
+    "EventType": "Yellow",
+    "Minute": 66,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-16T23:00:00"
+  },
+  {
+    "EventID": 67,
+    "MatchID": 12,
+    "PlayerID": 32,
+    "EventType": "Goal",
+    "Minute": 54,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-16T23:00:00"
+  },
+  {
+    "EventID": 68,
+    "MatchID": 12,
+    "PlayerID": 23,
+    "EventType": "Yellow",
+    "Minute": 28,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-16T23:00:00"
+  },
+  {
+    "EventID": 69,
+    "MatchID": 12,
+    "PlayerID": 23,
+    "EventType": "Yellow",
+    "Minute": 53,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-16T23:00:00"
+  },
+  {
+    "EventID": 70,
+    "MatchID": 13,
+    "PlayerID": 54,
+    "EventType": "Goal",
+    "Minute": 70,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-23T17:00:00"
+  },
+  {
+    "EventID": 71,
+    "MatchID": 13,
+    "PlayerID": 55,
+    "EventType": "Goal",
+    "Minute": 49,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-23T17:00:00"
+  },
+  {
+    "EventID": 72,
+    "MatchID": 13,
+    "PlayerID": 52,
+    "EventType": "Yellow",
+    "Minute": 63,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-23T17:00:00"
+  },
+  {
+    "EventID": 73,
+    "MatchID": 13,
+    "PlayerID": 49,
+    "EventType": "Yellow",
+    "Minute": 47,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-23T17:00:00"
+  },
+  {
+    "EventID": 74,
+    "MatchID": 13,
+    "PlayerID": 8,
+    "EventType": "Goal",
+    "Minute": 1,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-23T17:00:00"
+  },
+  {
+    "EventID": 75,
+    "MatchID": 13,
+    "PlayerID": 6,
+    "EventType": "Goal",
+    "Minute": 73,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-23T17:00:00"
+  },
+  {
+    "EventID": 76,
+    "MatchID": 14,
+    "PlayerID": 41,
+    "EventType": "Goal",
+    "Minute": 34,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-23T19:00:00"
+  },
+  {
+    "EventID": 77,
+    "MatchID": 14,
+    "PlayerID": 40,
+    "EventType": "Goal",
+    "Minute": 33,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-23T19:00:00"
+  },
+  {
+    "EventID": 78,
+    "MatchID": 14,
+    "PlayerID": 41,
+    "EventType": "Goal",
+    "Minute": 3,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-23T19:00:00"
+  },
+  {
+    "EventID": 79,
+    "MatchID": 14,
+    "PlayerID": 42,
+    "EventType": "Goal",
+    "Minute": 62,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-23T19:00:00"
+  },
+  {
+    "EventID": 80,
+    "MatchID": 14,
+    "PlayerID": 35,
+    "EventType": "Yellow",
+    "Minute": 52,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-23T19:00:00"
+  },
+  {
+    "EventID": 81,
+    "MatchID": 14,
+    "PlayerID": 65,
+    "EventType": "Goal",
+    "Minute": 30,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-23T19:00:00"
+  },
+  {
+    "EventID": 82,
+    "MatchID": 14,
+    "PlayerID": 57,
+    "EventType": "Yellow",
+    "Minute": 85,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-23T19:00:00"
+  },
+  {
+    "EventID": 83,
+    "MatchID": 15,
+    "PlayerID": 28,
+    "EventType": "Goal",
+    "Minute": 30,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-23T21:00:00"
+  },
+  {
+    "EventID": 84,
+    "MatchID": 15,
+    "PlayerID": 32,
+    "EventType": "Goal",
+    "Minute": 82,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-23T21:00:00"
+  },
+  {
+    "EventID": 85,
+    "MatchID": 15,
+    "PlayerID": 24,
+    "EventType": "Goal",
+    "Minute": 90,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-23T21:00:00"
+  },
+  {
+    "EventID": 86,
+    "MatchID": 15,
+    "PlayerID": 32,
+    "EventType": "Goal",
+    "Minute": 52,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-23T21:00:00"
+  },
+  {
+    "EventID": 87,
+    "MatchID": 15,
+    "PlayerID": 27,
+    "EventType": "Yellow",
+    "Minute": 84,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-23T21:00:00"
+  },
+  {
+    "EventID": 88,
+    "MatchID": 15,
+    "PlayerID": 28,
+    "EventType": "Yellow",
+    "Minute": 20,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-23T21:00:00"
+  },
+  {
+    "EventID": 89,
+    "MatchID": 15,
+    "PlayerID": 74,
+    "EventType": "Yellow",
+    "Minute": 86,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-23T21:00:00"
+  },
+  {
+    "EventID": 90,
+    "MatchID": 16,
+    "PlayerID": 21,
+    "EventType": "Goal",
+    "Minute": 57,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-23T23:00:00"
+  },
+  {
+    "EventID": 91,
+    "MatchID": 16,
+    "PlayerID": 19,
+    "EventType": "Goal",
+    "Minute": 69,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-23T23:00:00"
+  },
+  {
+    "EventID": 92,
+    "MatchID": 16,
+    "PlayerID": 16,
+    "EventType": "Goal",
+    "Minute": 24,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-23T23:00:00"
+  },
+  {
+    "EventID": 93,
+    "MatchID": 16,
+    "PlayerID": 14,
+    "EventType": "Goal",
+    "Minute": 79,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-23T23:00:00"
+  },
+  {
+    "EventID": 94,
+    "MatchID": 16,
+    "PlayerID": 80,
+    "EventType": "Goal",
+    "Minute": 65,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-23T23:00:00"
+  },
+  {
+    "EventID": 95,
+    "MatchID": 16,
+    "PlayerID": 80,
+    "EventType": "Yellow",
+    "Minute": 66,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-23T23:00:00"
+  },
+  {
+    "EventID": 96,
+    "MatchID": 17,
+    "PlayerID": 5,
+    "EventType": "Goal",
+    "Minute": 29,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-30T17:00:00"
+  },
+  {
+    "EventID": 97,
+    "MatchID": 17,
+    "PlayerID": 6,
+    "EventType": "Goal",
+    "Minute": 38,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-30T17:00:00"
+  },
+  {
+    "EventID": 98,
+    "MatchID": 17,
+    "PlayerID": 34,
+    "EventType": "Yellow",
+    "Minute": 47,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-30T17:00:00"
+  },
+  {
+    "EventID": 99,
+    "MatchID": 17,
+    "PlayerID": 36,
+    "EventType": "Yellow",
+    "Minute": 15,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-30T17:00:00"
+  },
+  {
+    "EventID": 100,
+    "MatchID": 18,
+    "PlayerID": 54,
+    "EventType": "Goal",
+    "Minute": 30,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-30T19:00:00"
+  },
+  {
+    "EventID": 101,
+    "MatchID": 18,
+    "PlayerID": 55,
+    "EventType": "Goal",
+    "Minute": 66,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-30T19:00:00"
+  },
+  {
+    "EventID": 102,
+    "MatchID": 18,
+    "PlayerID": 48,
+    "EventType": "Goal",
+    "Minute": 30,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-30T19:00:00"
+  },
+  {
+    "EventID": 103,
+    "MatchID": 18,
+    "PlayerID": 49,
+    "EventType": "Goal",
+    "Minute": 55,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-30T19:00:00"
+  },
+  {
+    "EventID": 104,
+    "MatchID": 18,
+    "PlayerID": 48,
+    "EventType": "Yellow",
+    "Minute": 23,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-30T19:00:00"
+  },
+  {
+    "EventID": 105,
+    "MatchID": 18,
+    "PlayerID": 25,
+    "EventType": "Goal",
+    "Minute": 88,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-30T19:00:00"
+  },
+  {
+    "EventID": 106,
+    "MatchID": 18,
+    "PlayerID": 25,
+    "EventType": "Goal",
+    "Minute": 43,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-30T19:00:00"
+  },
+  {
+    "EventID": 107,
+    "MatchID": 18,
+    "PlayerID": 32,
+    "EventType": "Goal",
+    "Minute": 6,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-30T19:00:00"
+  },
+  {
+    "EventID": 108,
+    "MatchID": 18,
+    "PlayerID": 28,
+    "EventType": "Goal",
+    "Minute": 4,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-30T19:00:00"
+  },
+  {
+    "EventID": 109,
+    "MatchID": 18,
+    "PlayerID": 24,
+    "EventType": "Yellow",
+    "Minute": 11,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-30T19:00:00"
+  },
+  {
+    "EventID": 110,
+    "MatchID": 18,
+    "PlayerID": 32,
+    "EventType": "Yellow",
+    "Minute": 86,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-30T19:00:00"
+  },
+  {
+    "EventID": 111,
+    "MatchID": 19,
+    "PlayerID": 61,
+    "EventType": "Goal",
+    "Minute": 58,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-30T21:00:00"
+  },
+  {
+    "EventID": 112,
+    "MatchID": 19,
+    "PlayerID": 21,
+    "EventType": "Goal",
+    "Minute": 28,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-30T21:00:00"
+  },
+  {
+    "EventID": 113,
+    "MatchID": 19,
+    "PlayerID": 15,
+    "EventType": "Goal",
+    "Minute": 86,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-30T21:00:00"
+  },
+  {
+    "EventID": 114,
+    "MatchID": 19,
+    "PlayerID": 14,
+    "EventType": "Goal",
+    "Minute": 83,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-30T21:00:00"
+  },
+  {
+    "EventID": 115,
+    "MatchID": 20,
+    "PlayerID": 74,
+    "EventType": "Goal",
+    "Minute": 42,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-30T23:00:00"
+  },
+  {
+    "EventID": 116,
+    "MatchID": 20,
+    "PlayerID": 74,
+    "EventType": "Goal",
+    "Minute": 25,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-30T23:00:00"
+  },
+  {
+    "EventID": 117,
+    "MatchID": 20,
+    "PlayerID": 69,
+    "EventType": "Goal",
+    "Minute": 66,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-30T23:00:00"
+  },
+  {
+    "EventID": 118,
+    "MatchID": 20,
+    "PlayerID": 74,
+    "EventType": "Goal",
+    "Minute": 9,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-30T23:00:00"
+  },
+  {
+    "EventID": 119,
+    "MatchID": 20,
+    "PlayerID": 69,
+    "EventType": "Yellow",
+    "Minute": 63,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-30T23:00:00"
+  },
+  {
+    "EventID": 120,
+    "MatchID": 20,
+    "PlayerID": 78,
+    "EventType": "Goal",
+    "Minute": 6,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-30T23:00:00"
+  },
+  {
+    "EventID": 121,
+    "MatchID": 20,
+    "PlayerID": 80,
+    "EventType": "Red",
+    "Minute": 49,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-08-30T23:00:00"
+  },
+  {
+    "EventID": 122,
+    "MatchID": 21,
+    "PlayerID": 32,
+    "EventType": "Goal",
+    "Minute": 66,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-06T17:00:00"
+  },
+  {
+    "EventID": 123,
+    "MatchID": 21,
+    "PlayerID": 26,
+    "EventType": "Goal",
+    "Minute": 90,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-06T17:00:00"
+  },
+  {
+    "EventID": 124,
+    "MatchID": 21,
+    "PlayerID": 32,
+    "EventType": "Goal",
+    "Minute": 56,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-06T17:00:00"
+  },
+  {
+    "EventID": 125,
+    "MatchID": 21,
+    "PlayerID": 27,
+    "EventType": "Goal",
+    "Minute": 84,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-06T17:00:00"
+  },
+  {
+    "EventID": 126,
+    "MatchID": 21,
+    "PlayerID": 8,
+    "EventType": "Goal",
+    "Minute": 79,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-06T17:00:00"
+  },
+  {
+    "EventID": 127,
+    "MatchID": 21,
+    "PlayerID": 11,
+    "EventType": "Yellow",
+    "Minute": 27,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-06T17:00:00"
+  },
+  {
+    "EventID": 128,
+    "MatchID": 22,
+    "PlayerID": 15,
+    "EventType": "Goal",
+    "Minute": 38,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-06T19:00:00"
+  },
+  {
+    "EventID": 129,
+    "MatchID": 22,
+    "PlayerID": 21,
+    "EventType": "Goal",
+    "Minute": 78,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-06T19:00:00"
+  },
+  {
+    "EventID": 130,
+    "MatchID": 22,
+    "PlayerID": 15,
+    "EventType": "Goal",
+    "Minute": 90,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-06T19:00:00"
+  },
+  {
+    "EventID": 131,
+    "MatchID": 22,
+    "PlayerID": 17,
+    "EventType": "Goal",
+    "Minute": 1,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-06T19:00:00"
+  },
+  {
+    "EventID": 132,
+    "MatchID": 22,
+    "PlayerID": 43,
+    "EventType": "Goal",
+    "Minute": 18,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-06T19:00:00"
+  },
+  {
+    "EventID": 133,
+    "MatchID": 22,
+    "PlayerID": 38,
+    "EventType": "Yellow",
+    "Minute": 61,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-06T19:00:00"
+  },
+  {
+    "EventID": 134,
+    "MatchID": 22,
+    "PlayerID": 35,
+    "EventType": "Yellow",
+    "Minute": 13,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-06T19:00:00"
+  },
+  {
+    "EventID": 135,
+    "MatchID": 23,
+    "PlayerID": 78,
+    "EventType": "Goal",
+    "Minute": 26,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-06T21:00:00"
+  },
+  {
+    "EventID": 136,
+    "MatchID": 23,
+    "PlayerID": 78,
+    "EventType": "Goal",
+    "Minute": 15,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-06T21:00:00"
+  },
+  {
+    "EventID": 137,
+    "MatchID": 23,
+    "PlayerID": 47,
+    "EventType": "Yellow",
+    "Minute": 67,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-06T21:00:00"
+  },
+  {
+    "EventID": 138,
+    "MatchID": 24,
+    "PlayerID": 68,
+    "EventType": "Goal",
+    "Minute": 3,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-06T23:00:00"
+  },
+  {
+    "EventID": 139,
+    "MatchID": 24,
+    "PlayerID": 71,
+    "EventType": "Goal",
+    "Minute": 63,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-06T23:00:00"
+  },
+  {
+    "EventID": 140,
+    "MatchID": 24,
+    "PlayerID": 72,
+    "EventType": "Yellow",
+    "Minute": 41,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-06T23:00:00"
+  },
+  {
+    "EventID": 141,
+    "MatchID": 24,
+    "PlayerID": 68,
+    "EventType": "Yellow",
+    "Minute": 78,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-06T23:00:00"
+  },
+  {
+    "EventID": 142,
+    "MatchID": 24,
+    "PlayerID": 60,
+    "EventType": "Yellow",
+    "Minute": 40,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-06T23:00:00"
+  },
+  {
+    "EventID": 143,
+    "MatchID": 25,
+    "PlayerID": 7,
+    "EventType": "Goal",
+    "Minute": 57,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-13T17:00:00"
+  },
+  {
+    "EventID": 144,
+    "MatchID": 25,
+    "PlayerID": 11,
+    "EventType": "Goal",
+    "Minute": 56,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-13T17:00:00"
+  },
+  {
+    "EventID": 145,
+    "MatchID": 25,
+    "PlayerID": 1,
+    "EventType": "Yellow",
+    "Minute": 11,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-13T17:00:00"
+  },
+  {
+    "EventID": 146,
+    "MatchID": 25,
+    "PlayerID": 20,
+    "EventType": "Goal",
+    "Minute": 15,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-13T17:00:00"
+  },
+  {
+    "EventID": 147,
+    "MatchID": 25,
+    "PlayerID": 14,
+    "EventType": "Goal",
+    "Minute": 82,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-13T17:00:00"
+  },
+  {
+    "EventID": 148,
+    "MatchID": 25,
+    "PlayerID": 15,
+    "EventType": "Goal",
+    "Minute": 60,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-13T17:00:00"
+  },
+  {
+    "EventID": 149,
+    "MatchID": 26,
+    "PlayerID": 24,
+    "EventType": "Goal",
+    "Minute": 23,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-13T19:00:00"
+  },
+  {
+    "EventID": 150,
+    "MatchID": 26,
+    "PlayerID": 24,
+    "EventType": "Goal",
+    "Minute": 61,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-13T19:00:00"
+  },
+  {
+    "EventID": 151,
+    "MatchID": 26,
+    "PlayerID": 30,
+    "EventType": "Goal",
+    "Minute": 8,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-13T19:00:00"
+  },
+  {
+    "EventID": 152,
+    "MatchID": 26,
+    "PlayerID": 84,
+    "EventType": "Yellow",
+    "Minute": 45,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-13T19:00:00"
+  },
+  {
+    "EventID": 153,
+    "MatchID": 27,
+    "PlayerID": 43,
+    "EventType": "Goal",
+    "Minute": 19,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-13T21:00:00"
+  },
+  {
+    "EventID": 154,
+    "MatchID": 27,
+    "PlayerID": 41,
+    "EventType": "Goal",
+    "Minute": 4,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-13T21:00:00"
+  },
+  {
+    "EventID": 155,
+    "MatchID": 27,
+    "PlayerID": 39,
+    "EventType": "Yellow",
+    "Minute": 31,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-13T21:00:00"
+  },
+  {
+    "EventID": 156,
+    "MatchID": 27,
+    "PlayerID": 40,
+    "EventType": "Yellow",
+    "Minute": 62,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-13T21:00:00"
+  },
+  {
+    "EventID": 157,
+    "MatchID": 27,
+    "PlayerID": 68,
+    "EventType": "Goal",
+    "Minute": 48,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-13T21:00:00"
+  },
+  {
+    "EventID": 158,
+    "MatchID": 27,
+    "PlayerID": 75,
+    "EventType": "Yellow",
+    "Minute": 65,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-13T21:00:00"
+  },
+  {
+    "EventID": 159,
+    "MatchID": 28,
+    "PlayerID": 52,
+    "EventType": "Goal",
+    "Minute": 6,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-13T23:00:00"
+  },
+  {
+    "EventID": 160,
+    "MatchID": 28,
+    "PlayerID": 54,
+    "EventType": "Goal",
+    "Minute": 88,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-13T23:00:00"
+  },
+  {
+    "EventID": 161,
+    "MatchID": 28,
+    "PlayerID": 52,
+    "EventType": "Goal",
+    "Minute": 58,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-13T23:00:00"
+  },
+  {
+    "EventID": 162,
+    "MatchID": 28,
+    "PlayerID": 47,
+    "EventType": "Goal",
+    "Minute": 72,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-13T23:00:00"
+  },
+  {
+    "EventID": 163,
+    "MatchID": 28,
+    "PlayerID": 55,
+    "EventType": "Yellow",
+    "Minute": 25,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-13T23:00:00"
+  },
+  {
+    "EventID": 164,
+    "MatchID": 28,
+    "PlayerID": 55,
+    "EventType": "Yellow",
+    "Minute": 19,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-13T23:00:00"
+  },
+  {
+    "EventID": 165,
+    "MatchID": 29,
+    "PlayerID": 85,
+    "EventType": "Goal",
+    "Minute": 4,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-20T17:00:00"
+  },
+  {
+    "EventID": 166,
+    "MatchID": 29,
+    "PlayerID": 80,
+    "EventType": "Goal",
+    "Minute": 24,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-20T17:00:00"
+  },
+  {
+    "EventID": 167,
+    "MatchID": 29,
+    "PlayerID": 81,
+    "EventType": "Goal",
+    "Minute": 58,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-20T17:00:00"
+  },
+  {
+    "EventID": 168,
+    "MatchID": 29,
+    "PlayerID": 83,
+    "EventType": "Goal",
+    "Minute": 48,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-20T17:00:00"
+  },
+  {
+    "EventID": 169,
+    "MatchID": 29,
+    "PlayerID": 79,
+    "EventType": "Yellow",
+    "Minute": 72,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-20T17:00:00"
+  },
+  {
+    "EventID": 170,
+    "MatchID": 29,
+    "PlayerID": 77,
+    "EventType": "Yellow",
+    "Minute": 49,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-20T17:00:00"
+  },
+  {
+    "EventID": 171,
+    "MatchID": 29,
+    "PlayerID": 10,
+    "EventType": "Goal",
+    "Minute": 68,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-20T17:00:00"
+  },
+  {
+    "EventID": 172,
+    "MatchID": 29,
+    "PlayerID": 10,
+    "EventType": "Yellow",
+    "Minute": 40,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-20T17:00:00"
+  },
+  {
+    "EventID": 173,
+    "MatchID": 29,
+    "PlayerID": 4,
+    "EventType": "Yellow",
+    "Minute": 14,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-20T17:00:00"
+  },
+  {
+    "EventID": 174,
+    "MatchID": 30,
+    "PlayerID": 69,
+    "EventType": "Goal",
+    "Minute": 20,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-20T19:00:00"
+  },
+  {
+    "EventID": 175,
+    "MatchID": 30,
+    "PlayerID": 75,
+    "EventType": "Goal",
+    "Minute": 48,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-20T19:00:00"
+  },
+  {
+    "EventID": 176,
+    "MatchID": 30,
+    "PlayerID": 75,
+    "EventType": "Goal",
+    "Minute": 59,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-20T19:00:00"
+  },
+  {
+    "EventID": 177,
+    "MatchID": 30,
+    "PlayerID": 75,
+    "EventType": "Yellow",
+    "Minute": 52,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-20T19:00:00"
+  },
+  {
+    "EventID": 178,
+    "MatchID": 30,
+    "PlayerID": 67,
+    "EventType": "Yellow",
+    "Minute": 64,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-20T19:00:00"
+  },
+  {
+    "EventID": 179,
+    "MatchID": 30,
+    "PlayerID": 21,
+    "EventType": "Goal",
+    "Minute": 56,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-20T19:00:00"
+  },
+  {
+    "EventID": 180,
+    "MatchID": 30,
+    "PlayerID": 14,
+    "EventType": "Yellow",
+    "Minute": 25,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-20T19:00:00"
+  },
+  {
+    "EventID": 181,
+    "MatchID": 31,
+    "PlayerID": 65,
+    "EventType": "Goal",
+    "Minute": 22,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-20T21:00:00"
+  },
+  {
+    "EventID": 182,
+    "MatchID": 31,
+    "PlayerID": 65,
+    "EventType": "Yellow",
+    "Minute": 57,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-20T21:00:00"
+  },
+  {
+    "EventID": 183,
+    "MatchID": 31,
+    "PlayerID": 57,
+    "EventType": "Yellow",
+    "Minute": 37,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-20T21:00:00"
+  },
+  {
+    "EventID": 184,
+    "MatchID": 31,
+    "PlayerID": 25,
+    "EventType": "Goal",
+    "Minute": 60,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-20T21:00:00"
+  },
+  {
+    "EventID": 185,
+    "MatchID": 31,
+    "PlayerID": 23,
+    "EventType": "Yellow",
+    "Minute": 32,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-20T21:00:00"
+  },
+  {
+    "EventID": 186,
+    "MatchID": 32,
+    "PlayerID": 50,
+    "EventType": "Goal",
+    "Minute": 76,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-20T23:00:00"
+  },
+  {
+    "EventID": 187,
+    "MatchID": 32,
+    "PlayerID": 52,
+    "EventType": "Goal",
+    "Minute": 40,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-20T23:00:00"
+  },
+  {
+    "EventID": 188,
+    "MatchID": 32,
+    "PlayerID": 46,
+    "EventType": "Yellow",
+    "Minute": 39,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-20T23:00:00"
+  },
+  {
+    "EventID": 189,
+    "MatchID": 32,
+    "PlayerID": 43,
+    "EventType": "Goal",
+    "Minute": 46,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-20T23:00:00"
+  },
+  {
+    "EventID": 190,
+    "MatchID": 32,
+    "PlayerID": 39,
+    "EventType": "Yellow",
+    "Minute": 17,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-20T23:00:00"
+  },
+  {
+    "EventID": 191,
+    "MatchID": 32,
+    "PlayerID": 43,
+    "EventType": "Yellow",
+    "Minute": 81,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-20T23:00:00"
+  },
+  {
+    "EventID": 192,
+    "MatchID": 33,
+    "PlayerID": 11,
+    "EventType": "Goal",
+    "Minute": 40,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-27T17:00:00"
+  },
+  {
+    "EventID": 193,
+    "MatchID": 33,
+    "PlayerID": 11,
+    "EventType": "Goal",
+    "Minute": 64,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-27T17:00:00"
+  },
+  {
+    "EventID": 194,
+    "MatchID": 33,
+    "PlayerID": 71,
+    "EventType": "Goal",
+    "Minute": 19,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-27T17:00:00"
+  },
+  {
+    "EventID": 195,
+    "MatchID": 33,
+    "PlayerID": 69,
+    "EventType": "Goal",
+    "Minute": 44,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-27T17:00:00"
+  },
+  {
+    "EventID": 196,
+    "MatchID": 33,
+    "PlayerID": 71,
+    "EventType": "Yellow",
+    "Minute": 50,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-27T17:00:00"
+  },
+  {
+    "EventID": 197,
+    "MatchID": 34,
+    "PlayerID": 79,
+    "EventType": "Goal",
+    "Minute": 18,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-27T19:00:00"
+  },
+  {
+    "EventID": 198,
+    "MatchID": 34,
+    "PlayerID": 81,
+    "EventType": "Yellow",
+    "Minute": 50,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-27T19:00:00"
+  },
+  {
+    "EventID": 199,
+    "MatchID": 34,
+    "PlayerID": 84,
+    "EventType": "Yellow",
+    "Minute": 26,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-27T19:00:00"
+  },
+  {
+    "EventID": 200,
+    "MatchID": 34,
+    "PlayerID": 64,
+    "EventType": "Goal",
+    "Minute": 46,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-27T19:00:00"
+  },
+  {
+    "EventID": 201,
+    "MatchID": 34,
+    "PlayerID": 63,
+    "EventType": "Goal",
+    "Minute": 38,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-27T19:00:00"
+  },
+  {
+    "EventID": 202,
+    "MatchID": 34,
+    "PlayerID": 62,
+    "EventType": "Goal",
+    "Minute": 14,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-27T19:00:00"
+  },
+  {
+    "EventID": 203,
+    "MatchID": 34,
+    "PlayerID": 58,
+    "EventType": "Goal",
+    "Minute": 76,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-27T19:00:00"
+  },
+  {
+    "EventID": 204,
+    "MatchID": 34,
+    "PlayerID": 60,
+    "EventType": "Yellow",
+    "Minute": 54,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-27T19:00:00"
+  },
+  {
+    "EventID": 205,
+    "MatchID": 34,
+    "PlayerID": 58,
+    "EventType": "Yellow",
+    "Minute": 72,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-27T19:00:00"
+  },
+  {
+    "EventID": 206,
+    "MatchID": 35,
+    "PlayerID": 20,
+    "EventType": "Goal",
+    "Minute": 36,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-27T21:00:00"
+  },
+  {
+    "EventID": 207,
+    "MatchID": 35,
+    "PlayerID": 15,
+    "EventType": "Goal",
+    "Minute": 13,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-27T21:00:00"
+  },
+  {
+    "EventID": 208,
+    "MatchID": 35,
+    "PlayerID": 18,
+    "EventType": "Goal",
+    "Minute": 86,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-27T21:00:00"
+  },
+  {
+    "EventID": 209,
+    "MatchID": 35,
+    "PlayerID": 20,
+    "EventType": "Goal",
+    "Minute": 27,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-27T21:00:00"
+  },
+  {
+    "EventID": 210,
+    "MatchID": 35,
+    "PlayerID": 18,
+    "EventType": "Yellow",
+    "Minute": 82,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-27T21:00:00"
+  },
+  {
+    "EventID": 211,
+    "MatchID": 35,
+    "PlayerID": 55,
+    "EventType": "Goal",
+    "Minute": 11,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-27T21:00:00"
+  },
+  {
+    "EventID": 212,
+    "MatchID": 35,
+    "PlayerID": 54,
+    "EventType": "Goal",
+    "Minute": 79,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-27T21:00:00"
+  },
+  {
+    "EventID": 213,
+    "MatchID": 35,
+    "PlayerID": 45,
+    "EventType": "Yellow",
+    "Minute": 53,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-27T21:00:00"
+  },
+  {
+    "EventID": 214,
+    "MatchID": 35,
+    "PlayerID": 45,
+    "EventType": "Yellow",
+    "Minute": 88,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-27T21:00:00"
+  },
+  {
+    "EventID": 215,
+    "MatchID": 36,
+    "PlayerID": 24,
+    "EventType": "Goal",
+    "Minute": 75,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-27T23:00:00"
+  },
+  {
+    "EventID": 216,
+    "MatchID": 36,
+    "PlayerID": 30,
+    "EventType": "Goal",
+    "Minute": 41,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-27T23:00:00"
+  },
+  {
+    "EventID": 217,
+    "MatchID": 36,
+    "PlayerID": 43,
+    "EventType": "Goal",
+    "Minute": 87,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-27T23:00:00"
+  },
+  {
+    "EventID": 218,
+    "MatchID": 36,
+    "PlayerID": 42,
+    "EventType": "Yellow",
+    "Minute": 33,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-27T23:00:00"
+  },
+  {
+    "EventID": 219,
+    "MatchID": 36,
+    "PlayerID": 40,
+    "EventType": "Red",
+    "Minute": 67,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-09-27T23:00:00"
+  },
+  {
+    "EventID": 220,
+    "MatchID": 37,
+    "PlayerID": 65,
+    "EventType": "Goal",
+    "Minute": 48,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-04T17:00:00"
+  },
+  {
+    "EventID": 221,
+    "MatchID": 37,
+    "PlayerID": 65,
+    "EventType": "Goal",
+    "Minute": 29,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-04T17:00:00"
+  },
+  {
+    "EventID": 222,
+    "MatchID": 37,
+    "PlayerID": 64,
+    "EventType": "Goal",
+    "Minute": 85,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-04T17:00:00"
+  },
+  {
+    "EventID": 223,
+    "MatchID": 37,
+    "PlayerID": 65,
+    "EventType": "Goal",
+    "Minute": 68,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-04T17:00:00"
+  },
+  {
+    "EventID": 224,
+    "MatchID": 37,
+    "PlayerID": 11,
+    "EventType": "Goal",
+    "Minute": 44,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-04T17:00:00"
+  },
+  {
+    "EventID": 225,
+    "MatchID": 37,
+    "PlayerID": 5,
+    "EventType": "Yellow",
+    "Minute": 83,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-04T17:00:00"
+  },
+  {
+    "EventID": 226,
+    "MatchID": 37,
+    "PlayerID": 6,
+    "EventType": "Yellow",
+    "Minute": 69,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-04T17:00:00"
+  },
+  {
+    "EventID": 227,
+    "MatchID": 38,
+    "PlayerID": 48,
+    "EventType": "Goal",
+    "Minute": 1,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-04T19:00:00"
+  },
+  {
+    "EventID": 228,
+    "MatchID": 38,
+    "PlayerID": 45,
+    "EventType": "Yellow",
+    "Minute": 43,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-04T19:00:00"
+  },
+  {
+    "EventID": 229,
+    "MatchID": 38,
+    "PlayerID": 44,
+    "EventType": "Yellow",
+    "Minute": 78,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-04T19:00:00"
+  },
+  {
+    "EventID": 230,
+    "MatchID": 38,
+    "PlayerID": 75,
+    "EventType": "Yellow",
+    "Minute": 89,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-04T19:00:00"
+  },
+  {
+    "EventID": 231,
+    "MatchID": 39,
+    "PlayerID": 35,
+    "EventType": "Goal",
+    "Minute": 52,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-04T21:00:00"
+  },
+  {
+    "EventID": 232,
+    "MatchID": 39,
+    "PlayerID": 42,
+    "EventType": "Yellow",
+    "Minute": 10,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-04T21:00:00"
+  },
+  {
+    "EventID": 233,
+    "MatchID": 40,
+    "PlayerID": 32,
+    "EventType": "Goal",
+    "Minute": 48,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-04T23:00:00"
+  },
+  {
+    "EventID": 234,
+    "MatchID": 40,
+    "PlayerID": 26,
+    "EventType": "Goal",
+    "Minute": 51,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-04T23:00:00"
+  },
+  {
+    "EventID": 235,
+    "MatchID": 40,
+    "PlayerID": 29,
+    "EventType": "Yellow",
+    "Minute": 65,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-04T23:00:00"
+  },
+  {
+    "EventID": 236,
+    "MatchID": 40,
+    "PlayerID": 21,
+    "EventType": "Goal",
+    "Minute": 14,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-04T23:00:00"
+  },
+  {
+    "EventID": 237,
+    "MatchID": 40,
+    "PlayerID": 19,
+    "EventType": "Goal",
+    "Minute": 59,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-04T23:00:00"
+  },
+  {
+    "EventID": 238,
+    "MatchID": 40,
+    "PlayerID": 12,
+    "EventType": "Yellow",
+    "Minute": 89,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-04T23:00:00"
+  },
+  {
+    "EventID": 239,
+    "MatchID": 41,
+    "PlayerID": 8,
+    "EventType": "Goal",
+    "Minute": 69,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-11T17:00:00"
+  },
+  {
+    "EventID": 240,
+    "MatchID": 41,
+    "PlayerID": 11,
+    "EventType": "Goal",
+    "Minute": 13,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-11T17:00:00"
+  },
+  {
+    "EventID": 241,
+    "MatchID": 41,
+    "PlayerID": 48,
+    "EventType": "Goal",
+    "Minute": 56,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-11T17:00:00"
+  },
+  {
+    "EventID": 242,
+    "MatchID": 41,
+    "PlayerID": 50,
+    "EventType": "Goal",
+    "Minute": 70,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-11T17:00:00"
+  },
+  {
+    "EventID": 243,
+    "MatchID": 41,
+    "PlayerID": 55,
+    "EventType": "Goal",
+    "Minute": 30,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-11T17:00:00"
+  },
+  {
+    "EventID": 244,
+    "MatchID": 41,
+    "PlayerID": 52,
+    "EventType": "Goal",
+    "Minute": 6,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-11T17:00:00"
+  },
+  {
+    "EventID": 245,
+    "MatchID": 42,
+    "PlayerID": 65,
+    "EventType": "Goal",
+    "Minute": 85,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-11T19:00:00"
+  },
+  {
+    "EventID": 246,
+    "MatchID": 42,
+    "PlayerID": 60,
+    "EventType": "Goal",
+    "Minute": 5,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-11T19:00:00"
+  },
+  {
+    "EventID": 247,
+    "MatchID": 42,
+    "PlayerID": 64,
+    "EventType": "Yellow",
+    "Minute": 33,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-11T19:00:00"
+  },
+  {
+    "EventID": 248,
+    "MatchID": 42,
+    "PlayerID": 59,
+    "EventType": "Yellow",
+    "Minute": 17,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-11T19:00:00"
+  },
+  {
+    "EventID": 249,
+    "MatchID": 42,
+    "PlayerID": 65,
+    "EventType": "Red",
+    "Minute": 60,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-11T19:00:00"
+  },
+  {
+    "EventID": 250,
+    "MatchID": 42,
+    "PlayerID": 38,
+    "EventType": "Goal",
+    "Minute": 39,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-11T19:00:00"
+  },
+  {
+    "EventID": 251,
+    "MatchID": 42,
+    "PlayerID": 42,
+    "EventType": "Yellow",
+    "Minute": 12,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-11T19:00:00"
+  },
+  {
+    "EventID": 252,
+    "MatchID": 43,
+    "PlayerID": 73,
+    "EventType": "Goal",
+    "Minute": 66,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-11T21:00:00"
+  },
+  {
+    "EventID": 253,
+    "MatchID": 43,
+    "PlayerID": 73,
+    "EventType": "Goal",
+    "Minute": 54,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-11T21:00:00"
+  },
+  {
+    "EventID": 254,
+    "MatchID": 43,
+    "PlayerID": 75,
+    "EventType": "Yellow",
+    "Minute": 46,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-11T21:00:00"
+  },
+  {
+    "EventID": 255,
+    "MatchID": 43,
+    "PlayerID": 32,
+    "EventType": "Goal",
+    "Minute": 77,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-11T21:00:00"
+  },
+  {
+    "EventID": 256,
+    "MatchID": 43,
+    "PlayerID": 26,
+    "EventType": "Goal",
+    "Minute": 65,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-11T21:00:00"
+  },
+  {
+    "EventID": 257,
+    "MatchID": 43,
+    "PlayerID": 30,
+    "EventType": "Goal",
+    "Minute": 12,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-11T21:00:00"
+  },
+  {
+    "EventID": 258,
+    "MatchID": 43,
+    "PlayerID": 32,
+    "EventType": "Goal",
+    "Minute": 77,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-11T21:00:00"
+  },
+  {
+    "EventID": 259,
+    "MatchID": 43,
+    "PlayerID": 30,
+    "EventType": "Yellow",
+    "Minute": 44,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-11T21:00:00"
+  },
+  {
+    "EventID": 260,
+    "MatchID": 43,
+    "PlayerID": 23,
+    "EventType": "Yellow",
+    "Minute": 69,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-11T21:00:00"
+  },
+  {
+    "EventID": 261,
+    "MatchID": 44,
+    "PlayerID": 84,
+    "EventType": "Goal",
+    "Minute": 65,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-11T23:00:00"
+  },
+  {
+    "EventID": 262,
+    "MatchID": 44,
+    "PlayerID": 79,
+    "EventType": "Goal",
+    "Minute": 19,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-11T23:00:00"
+  },
+  {
+    "EventID": 263,
+    "MatchID": 44,
+    "PlayerID": 80,
+    "EventType": "Yellow",
+    "Minute": 28,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-11T23:00:00"
+  },
+  {
+    "EventID": 264,
+    "MatchID": 44,
+    "PlayerID": 16,
+    "EventType": "Goal",
+    "Minute": 76,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-11T23:00:00"
+  },
+  {
+    "EventID": 265,
+    "MatchID": 45,
+    "PlayerID": 41,
+    "EventType": "Goal",
+    "Minute": 62,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-18T17:00:00"
+  },
+  {
+    "EventID": 266,
+    "MatchID": 45,
+    "PlayerID": 9,
+    "EventType": "Yellow",
+    "Minute": 77,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-18T17:00:00"
+  },
+  {
+    "EventID": 267,
+    "MatchID": 45,
+    "PlayerID": 5,
+    "EventType": "Yellow",
+    "Minute": 28,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-18T17:00:00"
+  },
+  {
+    "EventID": 268,
+    "MatchID": 46,
+    "PlayerID": 26,
+    "EventType": "Goal",
+    "Minute": 66,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-18T19:00:00"
+  },
+  {
+    "EventID": 269,
+    "MatchID": 46,
+    "PlayerID": 31,
+    "EventType": "Goal",
+    "Minute": 30,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-18T19:00:00"
+  },
+  {
+    "EventID": 270,
+    "MatchID": 46,
+    "PlayerID": 27,
+    "EventType": "Yellow",
+    "Minute": 34,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-18T19:00:00"
+  },
+  {
+    "EventID": 271,
+    "MatchID": 46,
+    "PlayerID": 48,
+    "EventType": "Goal",
+    "Minute": 63,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-18T19:00:00"
+  },
+  {
+    "EventID": 272,
+    "MatchID": 46,
+    "PlayerID": 45,
+    "EventType": "Yellow",
+    "Minute": 79,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-18T19:00:00"
+  },
+  {
+    "EventID": 273,
+    "MatchID": 46,
+    "PlayerID": 54,
+    "EventType": "Yellow",
+    "Minute": 73,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-18T19:00:00"
+  },
+  {
+    "EventID": 274,
+    "MatchID": 47,
+    "PlayerID": 21,
+    "EventType": "Goal",
+    "Minute": 54,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-18T21:00:00"
+  },
+  {
+    "EventID": 275,
+    "MatchID": 47,
+    "PlayerID": 14,
+    "EventType": "Yellow",
+    "Minute": 84,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-18T21:00:00"
+  },
+  {
+    "EventID": 276,
+    "MatchID": 47,
+    "PlayerID": 65,
+    "EventType": "Goal",
+    "Minute": 20,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-18T21:00:00"
+  },
+  {
+    "EventID": 277,
+    "MatchID": 48,
+    "PlayerID": 84,
+    "EventType": "Goal",
+    "Minute": 15,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-18T23:00:00"
+  },
+  {
+    "EventID": 278,
+    "MatchID": 48,
+    "PlayerID": 85,
+    "EventType": "Goal",
+    "Minute": 1,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-18T23:00:00"
+  },
+  {
+    "EventID": 279,
+    "MatchID": 48,
+    "PlayerID": 85,
+    "EventType": "Goal",
+    "Minute": 37,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-18T23:00:00"
+  },
+  {
+    "EventID": 280,
+    "MatchID": 48,
+    "PlayerID": 78,
+    "EventType": "Goal",
+    "Minute": 29,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-18T23:00:00"
+  },
+  {
+    "EventID": 281,
+    "MatchID": 48,
+    "PlayerID": 80,
+    "EventType": "Yellow",
+    "Minute": 46,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-18T23:00:00"
+  },
+  {
+    "EventID": 282,
+    "MatchID": 48,
+    "PlayerID": 72,
+    "EventType": "Goal",
+    "Minute": 58,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-18T23:00:00"
+  },
+  {
+    "EventID": 283,
+    "MatchID": 48,
+    "PlayerID": 72,
+    "EventType": "Yellow",
+    "Minute": 54,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-18T23:00:00"
+  },
+  {
+    "EventID": 284,
+    "MatchID": 49,
+    "PlayerID": 10,
+    "EventType": "Goal",
+    "Minute": 42,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-25T17:00:00"
+  },
+  {
+    "EventID": 285,
+    "MatchID": 49,
+    "PlayerID": 10,
+    "EventType": "Goal",
+    "Minute": 52,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-25T17:00:00"
+  },
+  {
+    "EventID": 286,
+    "MatchID": 49,
+    "PlayerID": 11,
+    "EventType": "Yellow",
+    "Minute": 46,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-25T17:00:00"
+  },
+  {
+    "EventID": 287,
+    "MatchID": 49,
+    "PlayerID": 4,
+    "EventType": "Yellow",
+    "Minute": 13,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-25T17:00:00"
+  },
+  {
+    "EventID": 288,
+    "MatchID": 49,
+    "PlayerID": 25,
+    "EventType": "Goal",
+    "Minute": 16,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-25T17:00:00"
+  },
+  {
+    "EventID": 289,
+    "MatchID": 49,
+    "PlayerID": 31,
+    "EventType": "Goal",
+    "Minute": 47,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-25T17:00:00"
+  },
+  {
+    "EventID": 290,
+    "MatchID": 49,
+    "PlayerID": 25,
+    "EventType": "Goal",
+    "Minute": 39,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-25T17:00:00"
+  },
+  {
+    "EventID": 291,
+    "MatchID": 49,
+    "PlayerID": 25,
+    "EventType": "Goal",
+    "Minute": 22,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-25T17:00:00"
+  },
+  {
+    "EventID": 292,
+    "MatchID": 49,
+    "PlayerID": 24,
+    "EventType": "Yellow",
+    "Minute": 82,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-25T17:00:00"
+  },
+  {
+    "EventID": 293,
+    "MatchID": 49,
+    "PlayerID": 27,
+    "EventType": "Yellow",
+    "Minute": 35,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-25T17:00:00"
+  },
+  {
+    "EventID": 294,
+    "MatchID": 50,
+    "PlayerID": 42,
+    "EventType": "Goal",
+    "Minute": 4,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-25T19:00:00"
+  },
+  {
+    "EventID": 295,
+    "MatchID": 50,
+    "PlayerID": 34,
+    "EventType": "Yellow",
+    "Minute": 77,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-25T19:00:00"
+  },
+  {
+    "EventID": 296,
+    "MatchID": 50,
+    "PlayerID": 19,
+    "EventType": "Goal",
+    "Minute": 43,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-25T19:00:00"
+  },
+  {
+    "EventID": 297,
+    "MatchID": 50,
+    "PlayerID": 21,
+    "EventType": "Goal",
+    "Minute": 85,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-25T19:00:00"
+  },
+  {
+    "EventID": 298,
+    "MatchID": 50,
+    "PlayerID": 17,
+    "EventType": "Goal",
+    "Minute": 21,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-25T19:00:00"
+  },
+  {
+    "EventID": 299,
+    "MatchID": 50,
+    "PlayerID": 19,
+    "EventType": "Goal",
+    "Minute": 77,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-25T19:00:00"
+  },
+  {
+    "EventID": 300,
+    "MatchID": 51,
+    "PlayerID": 50,
+    "EventType": "Goal",
+    "Minute": 20,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-25T21:00:00"
+  },
+  {
+    "EventID": 301,
+    "MatchID": 51,
+    "PlayerID": 47,
+    "EventType": "Goal",
+    "Minute": 90,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-25T21:00:00"
+  },
+  {
+    "EventID": 302,
+    "MatchID": 51,
+    "PlayerID": 46,
+    "EventType": "Yellow",
+    "Minute": 50,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-25T21:00:00"
+  },
+  {
+    "EventID": 303,
+    "MatchID": 51,
+    "PlayerID": 78,
+    "EventType": "Goal",
+    "Minute": 26,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-25T21:00:00"
+  },
+  {
+    "EventID": 304,
+    "MatchID": 51,
+    "PlayerID": 81,
+    "EventType": "Goal",
+    "Minute": 76,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-25T21:00:00"
+  },
+  {
+    "EventID": 305,
+    "MatchID": 51,
+    "PlayerID": 85,
+    "EventType": "Goal",
+    "Minute": 3,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-25T21:00:00"
+  },
+  {
+    "EventID": 306,
+    "MatchID": 51,
+    "PlayerID": 85,
+    "EventType": "Yellow",
+    "Minute": 80,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-25T21:00:00"
+  },
+  {
+    "EventID": 307,
+    "MatchID": 51,
+    "PlayerID": 80,
+    "EventType": "Yellow",
+    "Minute": 13,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-25T21:00:00"
+  },
+  {
+    "EventID": 308,
+    "MatchID": 52,
+    "PlayerID": 65,
+    "EventType": "Goal",
+    "Minute": 18,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-25T23:00:00"
+  },
+  {
+    "EventID": 309,
+    "MatchID": 52,
+    "PlayerID": 63,
+    "EventType": "Goal",
+    "Minute": 87,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-25T23:00:00"
+  },
+  {
+    "EventID": 310,
+    "MatchID": 52,
+    "PlayerID": 56,
+    "EventType": "Yellow",
+    "Minute": 15,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-25T23:00:00"
+  },
+  {
+    "EventID": 311,
+    "MatchID": 52,
+    "PlayerID": 57,
+    "EventType": "Yellow",
+    "Minute": 44,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-25T23:00:00"
+  },
+  {
+    "EventID": 312,
+    "MatchID": 52,
+    "PlayerID": 72,
+    "EventType": "Goal",
+    "Minute": 23,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-25T23:00:00"
+  },
+  {
+    "EventID": 313,
+    "MatchID": 52,
+    "PlayerID": 71,
+    "EventType": "Goal",
+    "Minute": 8,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-25T23:00:00"
+  },
+  {
+    "EventID": 314,
+    "MatchID": 52,
+    "PlayerID": 71,
+    "EventType": "Yellow",
+    "Minute": 77,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-25T23:00:00"
+  },
+  {
+    "EventID": 315,
+    "MatchID": 52,
+    "PlayerID": 75,
+    "EventType": "Yellow",
+    "Minute": 59,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-10-25T23:00:00"
+  },
+  {
+    "EventID": 316,
+    "MatchID": 53,
+    "PlayerID": 19,
+    "EventType": "Goal",
+    "Minute": 10,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-11-01T17:00:00"
+  },
+  {
+    "EventID": 317,
+    "MatchID": 53,
+    "PlayerID": 19,
+    "EventType": "Goal",
+    "Minute": 87,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-11-01T17:00:00"
+  },
+  {
+    "EventID": 318,
+    "MatchID": 53,
+    "PlayerID": 21,
+    "EventType": "Goal",
+    "Minute": 21,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-11-01T17:00:00"
+  },
+  {
+    "EventID": 319,
+    "MatchID": 53,
+    "PlayerID": 15,
+    "EventType": "Goal",
+    "Minute": 22,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-11-01T17:00:00"
+  },
+  {
+    "EventID": 320,
+    "MatchID": 53,
+    "PlayerID": 19,
+    "EventType": "Yellow",
+    "Minute": 25,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-11-01T17:00:00"
+  },
+  {
+    "EventID": 321,
+    "MatchID": 53,
+    "PlayerID": 5,
+    "EventType": "Goal",
+    "Minute": 43,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-11-01T17:00:00"
+  },
+  {
+    "EventID": 322,
+    "MatchID": 53,
+    "PlayerID": 8,
+    "EventType": "Goal",
+    "Minute": 88,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-11-01T17:00:00"
+  },
+  {
+    "EventID": 323,
+    "MatchID": 53,
+    "PlayerID": 6,
+    "EventType": "Goal",
+    "Minute": 48,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-11-01T17:00:00"
+  },
+  {
+    "EventID": 324,
+    "MatchID": 53,
+    "PlayerID": 2,
+    "EventType": "Yellow",
+    "Minute": 60,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-11-01T17:00:00"
+  },
+  {
+    "EventID": 325,
+    "MatchID": 53,
+    "PlayerID": 10,
+    "EventType": "Yellow",
+    "Minute": 43,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-11-01T17:00:00"
+  },
+  {
+    "EventID": 326,
+    "MatchID": 54,
+    "PlayerID": 81,
+    "EventType": "Goal",
+    "Minute": 43,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-11-01T19:00:00"
+  },
+  {
+    "EventID": 327,
+    "MatchID": 54,
+    "PlayerID": 85,
+    "EventType": "Yellow",
+    "Minute": 14,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-11-01T19:00:00"
+  },
+  {
+    "EventID": 328,
+    "MatchID": 54,
+    "PlayerID": 27,
+    "EventType": "Goal",
+    "Minute": 85,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-11-01T19:00:00"
+  },
+  {
+    "EventID": 329,
+    "MatchID": 54,
+    "PlayerID": 27,
+    "EventType": "Goal",
+    "Minute": 79,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-11-01T19:00:00"
+  },
+  {
+    "EventID": 330,
+    "MatchID": 54,
+    "PlayerID": 25,
+    "EventType": "Yellow",
+    "Minute": 59,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-11-01T19:00:00"
+  },
+  {
+    "EventID": 331,
+    "MatchID": 54,
+    "PlayerID": 29,
+    "EventType": "Yellow",
+    "Minute": 16,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-11-01T19:00:00"
+  },
+  {
+    "EventID": 332,
+    "MatchID": 55,
+    "PlayerID": 73,
+    "EventType": "Goal",
+    "Minute": 62,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-11-01T21:00:00"
+  },
+  {
+    "EventID": 333,
+    "MatchID": 55,
+    "PlayerID": 74,
+    "EventType": "Goal",
+    "Minute": 89,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-11-01T21:00:00"
+  },
+  {
+    "EventID": 334,
+    "MatchID": 55,
+    "PlayerID": 68,
+    "EventType": "Goal",
+    "Minute": 59,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-11-01T21:00:00"
+  },
+  {
+    "EventID": 335,
+    "MatchID": 55,
+    "PlayerID": 67,
+    "EventType": "Yellow",
+    "Minute": 63,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-11-01T21:00:00"
+  },
+  {
+    "EventID": 336,
+    "MatchID": 55,
+    "PlayerID": 38,
+    "EventType": "Goal",
+    "Minute": 61,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-11-01T21:00:00"
+  },
+  {
+    "EventID": 337,
+    "MatchID": 55,
+    "PlayerID": 35,
+    "EventType": "Goal",
+    "Minute": 8,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-11-01T21:00:00"
+  },
+  {
+    "EventID": 338,
+    "MatchID": 55,
+    "PlayerID": 38,
+    "EventType": "Yellow",
+    "Minute": 34,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-11-01T21:00:00"
+  },
+  {
+    "EventID": 339,
+    "MatchID": 55,
+    "PlayerID": 40,
+    "EventType": "Red",
+    "Minute": 49,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-11-01T21:00:00"
+  },
+  {
+    "EventID": 340,
+    "MatchID": 56,
+    "PlayerID": 63,
+    "EventType": "Goal",
+    "Minute": 42,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-11-01T23:00:00"
+  },
+  {
+    "EventID": 341,
+    "MatchID": 56,
+    "PlayerID": 55,
+    "EventType": "Goal",
+    "Minute": 69,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-11-01T23:00:00"
+  },
+  {
+    "EventID": 342,
+    "MatchID": 56,
+    "PlayerID": 54,
+    "EventType": "Goal",
+    "Minute": 76,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-11-01T23:00:00"
+  },
+  {
+    "EventID": 343,
+    "MatchID": 56,
+    "PlayerID": 46,
+    "EventType": "Goal",
+    "Minute": 81,
+    "CreatedBy": 2,
+    "CreatedAt": "2025-11-01T23:00:00"
+  },
+  {
+    "EventID": 344,
+    "MatchID": 57,
+    "PlayerID": 11,
+    "EventType": "Goal",
+    "Minute": 23,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-12T17:00:00"
+  },
+  {
+    "EventID": 345,
+    "MatchID": 57,
+    "PlayerID": 9,
+    "EventType": "Yellow",
+    "Minute": 21,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-12T17:00:00"
+  },
+  {
+    "EventID": 346,
+    "MatchID": 57,
+    "PlayerID": 5,
+    "EventType": "Yellow",
+    "Minute": 31,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-12T17:00:00"
+  },
+  {
+    "EventID": 347,
+    "MatchID": 57,
+    "PlayerID": 79,
+    "EventType": "Goal",
+    "Minute": 3,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-12T17:00:00"
+  },
+  {
+    "EventID": 348,
+    "MatchID": 57,
+    "PlayerID": 79,
+    "EventType": "Yellow",
+    "Minute": 87,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-12T17:00:00"
+  },
+  {
+    "EventID": 349,
+    "MatchID": 58,
+    "PlayerID": 20,
+    "EventType": "Goal",
+    "Minute": 55,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-12T19:00:00"
+  },
+  {
+    "EventID": 350,
+    "MatchID": 58,
+    "PlayerID": 20,
+    "EventType": "Yellow",
+    "Minute": 31,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-12T19:00:00"
+  },
+  {
+    "EventID": 351,
+    "MatchID": 58,
+    "PlayerID": 16,
+    "EventType": "Yellow",
+    "Minute": 51,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-12T19:00:00"
+  },
+  {
+    "EventID": 352,
+    "MatchID": 59,
+    "PlayerID": 27,
+    "EventType": "Goal",
+    "Minute": 9,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-12T21:00:00"
+  },
+  {
+    "EventID": 353,
+    "MatchID": 59,
+    "PlayerID": 28,
+    "EventType": "Yellow",
+    "Minute": 34,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-12T21:00:00"
+  },
+  {
+    "EventID": 354,
+    "MatchID": 59,
+    "PlayerID": 60,
+    "EventType": "Goal",
+    "Minute": 73,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-12T21:00:00"
+  },
+  {
+    "EventID": 355,
+    "MatchID": 59,
+    "PlayerID": 59,
+    "EventType": "Goal",
+    "Minute": 1,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-12T21:00:00"
+  },
+  {
+    "EventID": 356,
+    "MatchID": 59,
+    "PlayerID": 57,
+    "EventType": "Yellow",
+    "Minute": 29,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-12T21:00:00"
+  },
+  {
+    "EventID": 357,
+    "MatchID": 59,
+    "PlayerID": 56,
+    "EventType": "Yellow",
+    "Minute": 22,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-12T21:00:00"
+  },
+  {
+    "EventID": 358,
+    "MatchID": 60,
+    "PlayerID": 39,
+    "EventType": "Goal",
+    "Minute": 45,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-12T23:00:00"
+  },
+  {
+    "EventID": 359,
+    "MatchID": 60,
+    "PlayerID": 41,
+    "EventType": "Yellow",
+    "Minute": 17,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-12T23:00:00"
+  },
+  {
+    "EventID": 360,
+    "MatchID": 60,
+    "PlayerID": 54,
+    "EventType": "Goal",
+    "Minute": 86,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-12T23:00:00"
+  },
+  {
+    "EventID": 361,
+    "MatchID": 60,
+    "PlayerID": 54,
+    "EventType": "Goal",
+    "Minute": 44,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-12T23:00:00"
+  },
+  {
+    "EventID": 362,
+    "MatchID": 60,
+    "PlayerID": 50,
+    "EventType": "Yellow",
+    "Minute": 34,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-12T23:00:00"
+  },
+  {
+    "EventID": 363,
+    "MatchID": 61,
+    "PlayerID": 70,
+    "EventType": "Goal",
+    "Minute": 78,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-19T17:00:00"
+  },
+  {
+    "EventID": 364,
+    "MatchID": 61,
+    "PlayerID": 71,
+    "EventType": "Goal",
+    "Minute": 67,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-19T17:00:00"
+  },
+  {
+    "EventID": 365,
+    "MatchID": 61,
+    "PlayerID": 74,
+    "EventType": "Yellow",
+    "Minute": 10,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-19T17:00:00"
+  },
+  {
+    "EventID": 366,
+    "MatchID": 61,
+    "PlayerID": 69,
+    "EventType": "Yellow",
+    "Minute": 28,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-19T17:00:00"
+  },
+  {
+    "EventID": 367,
+    "MatchID": 61,
+    "PlayerID": 10,
+    "EventType": "Goal",
+    "Minute": 71,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-19T17:00:00"
+  },
+  {
+    "EventID": 368,
+    "MatchID": 61,
+    "PlayerID": 7,
+    "EventType": "Yellow",
+    "Minute": 14,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-19T17:00:00"
+  },
+  {
+    "EventID": 369,
+    "MatchID": 62,
+    "PlayerID": 60,
+    "EventType": "Goal",
+    "Minute": 89,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-19T19:00:00"
+  },
+  {
+    "EventID": 370,
+    "MatchID": 62,
+    "PlayerID": 64,
+    "EventType": "Goal",
+    "Minute": 64,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-19T19:00:00"
+  },
+  {
+    "EventID": 371,
+    "MatchID": 62,
+    "PlayerID": 61,
+    "EventType": "Goal",
+    "Minute": 23,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-19T19:00:00"
+  },
+  {
+    "EventID": 372,
+    "MatchID": 62,
+    "PlayerID": 59,
+    "EventType": "Goal",
+    "Minute": 60,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-19T19:00:00"
+  },
+  {
+    "EventID": 373,
+    "MatchID": 62,
+    "PlayerID": 60,
+    "EventType": "Yellow",
+    "Minute": 62,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-19T19:00:00"
+  },
+  {
+    "EventID": 374,
+    "MatchID": 62,
+    "PlayerID": 78,
+    "EventType": "Goal",
+    "Minute": 86,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-19T19:00:00"
+  },
+  {
+    "EventID": 375,
+    "MatchID": 62,
+    "PlayerID": 80,
+    "EventType": "Yellow",
+    "Minute": 20,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-19T19:00:00"
+  },
+  {
+    "EventID": 376,
+    "MatchID": 63,
+    "PlayerID": 51,
+    "EventType": "Goal",
+    "Minute": 69,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-19T21:00:00"
+  },
+  {
+    "EventID": 377,
+    "MatchID": 63,
+    "PlayerID": 47,
+    "EventType": "Goal",
+    "Minute": 3,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-19T21:00:00"
+  },
+  {
+    "EventID": 378,
+    "MatchID": 63,
+    "PlayerID": 19,
+    "EventType": "Goal",
+    "Minute": 54,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-19T21:00:00"
+  },
+  {
+    "EventID": 379,
+    "MatchID": 63,
+    "PlayerID": 18,
+    "EventType": "Goal",
+    "Minute": 43,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-19T21:00:00"
+  },
+  {
+    "EventID": 380,
+    "MatchID": 64,
+    "PlayerID": 38,
+    "EventType": "Goal",
+    "Minute": 1,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-19T23:00:00"
+  },
+  {
+    "EventID": 381,
+    "MatchID": 64,
+    "PlayerID": 38,
+    "EventType": "Goal",
+    "Minute": 88,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-19T23:00:00"
+  },
+  {
+    "EventID": 382,
+    "MatchID": 64,
+    "PlayerID": 43,
+    "EventType": "Yellow",
+    "Minute": 86,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-19T23:00:00"
+  },
+  {
+    "EventID": 383,
+    "MatchID": 64,
+    "PlayerID": 25,
+    "EventType": "Yellow",
+    "Minute": 64,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-19T23:00:00"
+  },
+  {
+    "EventID": 384,
+    "MatchID": 65,
+    "PlayerID": 3,
+    "EventType": "Goal",
+    "Minute": 22,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-26T17:00:00"
+  },
+  {
+    "EventID": 385,
+    "MatchID": 65,
+    "PlayerID": 3,
+    "EventType": "Goal",
+    "Minute": 83,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-26T17:00:00"
+  },
+  {
+    "EventID": 386,
+    "MatchID": 65,
+    "PlayerID": 7,
+    "EventType": "Goal",
+    "Minute": 69,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-26T17:00:00"
+  },
+  {
+    "EventID": 387,
+    "MatchID": 65,
+    "PlayerID": 1,
+    "EventType": "Yellow",
+    "Minute": 40,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-26T17:00:00"
+  },
+  {
+    "EventID": 388,
+    "MatchID": 65,
+    "PlayerID": 64,
+    "EventType": "Goal",
+    "Minute": 42,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-26T17:00:00"
+  },
+  {
+    "EventID": 389,
+    "MatchID": 65,
+    "PlayerID": 58,
+    "EventType": "Goal",
+    "Minute": 49,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-26T17:00:00"
+  },
+  {
+    "EventID": 390,
+    "MatchID": 65,
+    "PlayerID": 58,
+    "EventType": "Goal",
+    "Minute": 67,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-26T17:00:00"
+  },
+  {
+    "EventID": 391,
+    "MatchID": 65,
+    "PlayerID": 59,
+    "EventType": "Goal",
+    "Minute": 12,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-26T17:00:00"
+  },
+  {
+    "EventID": 392,
+    "MatchID": 65,
+    "PlayerID": 58,
+    "EventType": "Yellow",
+    "Minute": 75,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-26T17:00:00"
+  },
+  {
+    "EventID": 393,
+    "MatchID": 66,
+    "PlayerID": 68,
+    "EventType": "Goal",
+    "Minute": 28,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-26T19:00:00"
+  },
+  {
+    "EventID": 394,
+    "MatchID": 66,
+    "PlayerID": 69,
+    "EventType": "Goal",
+    "Minute": 68,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-26T19:00:00"
+  },
+  {
+    "EventID": 395,
+    "MatchID": 66,
+    "PlayerID": 72,
+    "EventType": "Goal",
+    "Minute": 33,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-26T19:00:00"
+  },
+  {
+    "EventID": 396,
+    "MatchID": 66,
+    "PlayerID": 68,
+    "EventType": "Goal",
+    "Minute": 19,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-26T19:00:00"
+  },
+  {
+    "EventID": 397,
+    "MatchID": 66,
+    "PlayerID": 75,
+    "EventType": "Yellow",
+    "Minute": 42,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-26T19:00:00"
+  },
+  {
+    "EventID": 398,
+    "MatchID": 66,
+    "PlayerID": 48,
+    "EventType": "Goal",
+    "Minute": 69,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-26T19:00:00"
+  },
+  {
+    "EventID": 399,
+    "MatchID": 66,
+    "PlayerID": 46,
+    "EventType": "Yellow",
+    "Minute": 58,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-26T19:00:00"
+  },
+  {
+    "EventID": 400,
+    "MatchID": 67,
+    "PlayerID": 82,
+    "EventType": "Goal",
+    "Minute": 56,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-26T21:00:00"
+  },
+  {
+    "EventID": 401,
+    "MatchID": 67,
+    "PlayerID": 85,
+    "EventType": "Yellow",
+    "Minute": 59,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-26T21:00:00"
+  },
+  {
+    "EventID": 402,
+    "MatchID": 67,
+    "PlayerID": 77,
+    "EventType": "Yellow",
+    "Minute": 30,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-26T21:00:00"
+  },
+  {
+    "EventID": 403,
+    "MatchID": 67,
+    "PlayerID": 41,
+    "EventType": "Goal",
+    "Minute": 26,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-26T21:00:00"
+  },
+  {
+    "EventID": 404,
+    "MatchID": 67,
+    "PlayerID": 41,
+    "EventType": "Yellow",
+    "Minute": 40,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-26T21:00:00"
+  },
+  {
+    "EventID": 405,
+    "MatchID": 67,
+    "PlayerID": 38,
+    "EventType": "Yellow",
+    "Minute": 79,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-26T21:00:00"
+  },
+  {
+    "EventID": 406,
+    "MatchID": 68,
+    "PlayerID": 19,
+    "EventType": "Goal",
+    "Minute": 40,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-26T23:00:00"
+  },
+  {
+    "EventID": 407,
+    "MatchID": 68,
+    "PlayerID": 15,
+    "EventType": "Goal",
+    "Minute": 30,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-26T23:00:00"
+  },
+  {
+    "EventID": 408,
+    "MatchID": 68,
+    "PlayerID": 20,
+    "EventType": "Yellow",
+    "Minute": 41,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-26T23:00:00"
+  },
+  {
+    "EventID": 409,
+    "MatchID": 68,
+    "PlayerID": 17,
+    "EventType": "Yellow",
+    "Minute": 84,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-26T23:00:00"
+  },
+  {
+    "EventID": 410,
+    "MatchID": 68,
+    "PlayerID": 30,
+    "EventType": "Goal",
+    "Minute": 80,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-26T23:00:00"
+  },
+  {
+    "EventID": 411,
+    "MatchID": 68,
+    "PlayerID": 31,
+    "EventType": "Yellow",
+    "Minute": 75,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-26T23:00:00"
+  },
+  {
+    "EventID": 412,
+    "MatchID": 68,
+    "PlayerID": 22,
+    "EventType": "Yellow",
+    "Minute": 44,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-09-26T23:00:00"
+  },
+  {
+    "EventID": 413,
+    "MatchID": 69,
+    "PlayerID": 55,
+    "EventType": "Goal",
+    "Minute": 57,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-03T17:00:00"
+  },
+  {
+    "EventID": 414,
+    "MatchID": 69,
+    "PlayerID": 55,
+    "EventType": "Goal",
+    "Minute": 34,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-03T17:00:00"
+  },
+  {
+    "EventID": 415,
+    "MatchID": 69,
+    "PlayerID": 51,
+    "EventType": "Yellow",
+    "Minute": 33,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-03T17:00:00"
+  },
+  {
+    "EventID": 416,
+    "MatchID": 69,
+    "PlayerID": 8,
+    "EventType": "Goal",
+    "Minute": 65,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-03T17:00:00"
+  },
+  {
+    "EventID": 417,
+    "MatchID": 69,
+    "PlayerID": 7,
+    "EventType": "Goal",
+    "Minute": 55,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-03T17:00:00"
+  },
+  {
+    "EventID": 418,
+    "MatchID": 69,
+    "PlayerID": 5,
+    "EventType": "Goal",
+    "Minute": 37,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-03T17:00:00"
+  },
+  {
+    "EventID": 419,
+    "MatchID": 69,
+    "PlayerID": 11,
+    "EventType": "Goal",
+    "Minute": 34,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-03T17:00:00"
+  },
+  {
+    "EventID": 420,
+    "MatchID": 69,
+    "PlayerID": 7,
+    "EventType": "Yellow",
+    "Minute": 20,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-03T17:00:00"
+  },
+  {
+    "EventID": 421,
+    "MatchID": 70,
+    "PlayerID": 43,
+    "EventType": "Goal",
+    "Minute": 90,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-03T19:00:00"
+  },
+  {
+    "EventID": 422,
+    "MatchID": 70,
+    "PlayerID": 36,
+    "EventType": "Yellow",
+    "Minute": 24,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-03T19:00:00"
+  },
+  {
+    "EventID": 423,
+    "MatchID": 70,
+    "PlayerID": 35,
+    "EventType": "Yellow",
+    "Minute": 79,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-03T19:00:00"
+  },
+  {
+    "EventID": 424,
+    "MatchID": 70,
+    "PlayerID": 61,
+    "EventType": "Goal",
+    "Minute": 3,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-03T19:00:00"
+  },
+  {
+    "EventID": 425,
+    "MatchID": 70,
+    "PlayerID": 64,
+    "EventType": "Goal",
+    "Minute": 61,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-03T19:00:00"
+  },
+  {
+    "EventID": 426,
+    "MatchID": 70,
+    "PlayerID": 64,
+    "EventType": "Goal",
+    "Minute": 32,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-03T19:00:00"
+  },
+  {
+    "EventID": 427,
+    "MatchID": 70,
+    "PlayerID": 64,
+    "EventType": "Yellow",
+    "Minute": 14,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-03T19:00:00"
+  },
+  {
+    "EventID": 428,
+    "MatchID": 70,
+    "PlayerID": 59,
+    "EventType": "Yellow",
+    "Minute": 78,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-03T19:00:00"
+  },
+  {
+    "EventID": 429,
+    "MatchID": 71,
+    "PlayerID": 32,
+    "EventType": "Goal",
+    "Minute": 6,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-03T21:00:00"
+  },
+  {
+    "EventID": 430,
+    "MatchID": 71,
+    "PlayerID": 29,
+    "EventType": "Goal",
+    "Minute": 25,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-03T21:00:00"
+  },
+  {
+    "EventID": 431,
+    "MatchID": 71,
+    "PlayerID": 24,
+    "EventType": "Yellow",
+    "Minute": 90,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-03T21:00:00"
+  },
+  {
+    "EventID": 432,
+    "MatchID": 71,
+    "PlayerID": 25,
+    "EventType": "Yellow",
+    "Minute": 85,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-03T21:00:00"
+  },
+  {
+    "EventID": 433,
+    "MatchID": 71,
+    "PlayerID": 75,
+    "EventType": "Goal",
+    "Minute": 80,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-03T21:00:00"
+  },
+  {
+    "EventID": 434,
+    "MatchID": 72,
+    "PlayerID": 15,
+    "EventType": "Goal",
+    "Minute": 62,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-03T23:00:00"
+  },
+  {
+    "EventID": 435,
+    "MatchID": 72,
+    "PlayerID": 16,
+    "EventType": "Goal",
+    "Minute": 9,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-03T23:00:00"
+  },
+  {
+    "EventID": 436,
+    "MatchID": 72,
+    "PlayerID": 79,
+    "EventType": "Goal",
+    "Minute": 78,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-03T23:00:00"
+  },
+  {
+    "EventID": 437,
+    "MatchID": 72,
+    "PlayerID": 80,
+    "EventType": "Yellow",
+    "Minute": 41,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-03T23:00:00"
+  },
+  {
+    "EventID": 438,
+    "MatchID": 73,
+    "PlayerID": 10,
+    "EventType": "Goal",
+    "Minute": 31,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-10T17:00:00"
+  },
+  {
+    "EventID": 439,
+    "MatchID": 73,
+    "PlayerID": 10,
+    "EventType": "Goal",
+    "Minute": 29,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-10T17:00:00"
+  },
+  {
+    "EventID": 440,
+    "MatchID": 73,
+    "PlayerID": 7,
+    "EventType": "Yellow",
+    "Minute": 59,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-10T17:00:00"
+  },
+  {
+    "EventID": 441,
+    "MatchID": 73,
+    "PlayerID": 41,
+    "EventType": "Goal",
+    "Minute": 59,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-10T17:00:00"
+  },
+  {
+    "EventID": 442,
+    "MatchID": 73,
+    "PlayerID": 42,
+    "EventType": "Goal",
+    "Minute": 7,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-10T17:00:00"
+  },
+  {
+    "EventID": 443,
+    "MatchID": 73,
+    "PlayerID": 40,
+    "EventType": "Goal",
+    "Minute": 46,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-10T17:00:00"
+  },
+  {
+    "EventID": 444,
+    "MatchID": 73,
+    "PlayerID": 33,
+    "EventType": "Yellow",
+    "Minute": 22,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-10T17:00:00"
+  },
+  {
+    "EventID": 445,
+    "MatchID": 74,
+    "PlayerID": 51,
+    "EventType": "Goal",
+    "Minute": 84,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-10T19:00:00"
+  },
+  {
+    "EventID": 446,
+    "MatchID": 74,
+    "PlayerID": 47,
+    "EventType": "Goal",
+    "Minute": 55,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-10T19:00:00"
+  },
+  {
+    "EventID": 447,
+    "MatchID": 74,
+    "PlayerID": 51,
+    "EventType": "Goal",
+    "Minute": 38,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-10T19:00:00"
+  },
+  {
+    "EventID": 448,
+    "MatchID": 74,
+    "PlayerID": 24,
+    "EventType": "Goal",
+    "Minute": 53,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-10T19:00:00"
+  },
+  {
+    "EventID": 449,
+    "MatchID": 74,
+    "PlayerID": 24,
+    "EventType": "Goal",
+    "Minute": 50,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-10T19:00:00"
+  },
+  {
+    "EventID": 450,
+    "MatchID": 74,
+    "PlayerID": 31,
+    "EventType": "Goal",
+    "Minute": 18,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-10T19:00:00"
+  },
+  {
+    "EventID": 451,
+    "MatchID": 74,
+    "PlayerID": 23,
+    "EventType": "Yellow",
+    "Minute": 60,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-10T19:00:00"
+  },
+  {
+    "EventID": 452,
+    "MatchID": 75,
+    "PlayerID": 59,
+    "EventType": "Goal",
+    "Minute": 78,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-10T21:00:00"
+  },
+  {
+    "EventID": 453,
+    "MatchID": 75,
+    "PlayerID": 64,
+    "EventType": "Yellow",
+    "Minute": 77,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-10T21:00:00"
+  },
+  {
+    "EventID": 454,
+    "MatchID": 75,
+    "PlayerID": 15,
+    "EventType": "Goal",
+    "Minute": 57,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-10T21:00:00"
+  },
+  {
+    "EventID": 455,
+    "MatchID": 75,
+    "PlayerID": 14,
+    "EventType": "Goal",
+    "Minute": 35,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-10T21:00:00"
+  },
+  {
+    "EventID": 456,
+    "MatchID": 75,
+    "PlayerID": 21,
+    "EventType": "Yellow",
+    "Minute": 15,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-10T21:00:00"
+  },
+  {
+    "EventID": 457,
+    "MatchID": 75,
+    "PlayerID": 20,
+    "EventType": "Yellow",
+    "Minute": 50,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-10T21:00:00"
+  },
+  {
+    "EventID": 458,
+    "MatchID": 76,
+    "PlayerID": 69,
+    "EventType": "Goal",
+    "Minute": 13,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-10T23:00:00"
+  },
+  {
+    "EventID": 459,
+    "MatchID": 76,
+    "PlayerID": 71,
+    "EventType": "Goal",
+    "Minute": 25,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-10T23:00:00"
+  },
+  {
+    "EventID": 460,
+    "MatchID": 76,
+    "PlayerID": 66,
+    "EventType": "Yellow",
+    "Minute": 40,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-10T23:00:00"
+  },
+  {
+    "EventID": 461,
+    "MatchID": 76,
+    "PlayerID": 83,
+    "EventType": "Goal",
+    "Minute": 50,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-10T23:00:00"
+  },
+  {
+    "EventID": 462,
+    "MatchID": 76,
+    "PlayerID": 80,
+    "EventType": "Goal",
+    "Minute": 61,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-10T23:00:00"
+  },
+  {
+    "EventID": 463,
+    "MatchID": 76,
+    "PlayerID": 81,
+    "EventType": "Goal",
+    "Minute": 79,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-10T23:00:00"
+  },
+  {
+    "EventID": 464,
+    "MatchID": 77,
+    "PlayerID": 25,
+    "EventType": "Goal",
+    "Minute": 37,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-17T17:00:00"
+  },
+  {
+    "EventID": 465,
+    "MatchID": 77,
+    "PlayerID": 26,
+    "EventType": "Yellow",
+    "Minute": 52,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-17T17:00:00"
+  },
+  {
+    "EventID": 466,
+    "MatchID": 77,
+    "PlayerID": 3,
+    "EventType": "Goal",
+    "Minute": 3,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-17T17:00:00"
+  },
+  {
+    "EventID": 467,
+    "MatchID": 77,
+    "PlayerID": 11,
+    "EventType": "Goal",
+    "Minute": 67,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-17T17:00:00"
+  },
+  {
+    "EventID": 468,
+    "MatchID": 77,
+    "PlayerID": 10,
+    "EventType": "Goal",
+    "Minute": 16,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-17T17:00:00"
+  },
+  {
+    "EventID": 469,
+    "MatchID": 77,
+    "PlayerID": 6,
+    "EventType": "Yellow",
+    "Minute": 64,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-17T17:00:00"
+  },
+  {
+    "EventID": 470,
+    "MatchID": 78,
+    "PlayerID": 20,
+    "EventType": "Goal",
+    "Minute": 17,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-17T19:00:00"
+  },
+  {
+    "EventID": 471,
+    "MatchID": 78,
+    "PlayerID": 19,
+    "EventType": "Yellow",
+    "Minute": 90,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-17T19:00:00"
+  },
+  {
+    "EventID": 472,
+    "MatchID": 78,
+    "PlayerID": 16,
+    "EventType": "Yellow",
+    "Minute": 25,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-17T19:00:00"
+  },
+  {
+    "EventID": 473,
+    "MatchID": 78,
+    "PlayerID": 43,
+    "EventType": "Goal",
+    "Minute": 33,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-17T19:00:00"
+  },
+  {
+    "EventID": 474,
+    "MatchID": 78,
+    "PlayerID": 40,
+    "EventType": "Yellow",
+    "Minute": 29,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-17T19:00:00"
+  },
+  {
+    "EventID": 475,
+    "MatchID": 78,
+    "PlayerID": 35,
+    "EventType": "Red",
+    "Minute": 47,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-17T19:00:00"
+  },
+  {
+    "EventID": 476,
+    "MatchID": 79,
+    "PlayerID": 81,
+    "EventType": "Goal",
+    "Minute": 46,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-17T21:00:00"
+  },
+  {
+    "EventID": 477,
+    "MatchID": 79,
+    "PlayerID": 82,
+    "EventType": "Goal",
+    "Minute": 24,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-17T21:00:00"
+  },
+  {
+    "EventID": 478,
+    "MatchID": 79,
+    "PlayerID": 85,
+    "EventType": "Goal",
+    "Minute": 59,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-17T21:00:00"
+  },
+  {
+    "EventID": 479,
+    "MatchID": 79,
+    "PlayerID": 52,
+    "EventType": "Goal",
+    "Minute": 79,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-17T21:00:00"
+  },
+  {
+    "EventID": 480,
+    "MatchID": 79,
+    "PlayerID": 53,
+    "EventType": "Goal",
+    "Minute": 56,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-17T21:00:00"
+  },
+  {
+    "EventID": 481,
+    "MatchID": 79,
+    "PlayerID": 55,
+    "EventType": "Goal",
+    "Minute": 9,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-17T21:00:00"
+  },
+  {
+    "EventID": 482,
+    "MatchID": 79,
+    "PlayerID": 55,
+    "EventType": "Goal",
+    "Minute": 21,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-17T21:00:00"
+  },
+  {
+    "EventID": 483,
+    "MatchID": 79,
+    "PlayerID": 50,
+    "EventType": "Yellow",
+    "Minute": 26,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-17T21:00:00"
+  },
+  {
+    "EventID": 484,
+    "MatchID": 79,
+    "PlayerID": 52,
+    "EventType": "Yellow",
+    "Minute": 66,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-17T21:00:00"
+  },
+  {
+    "EventID": 485,
+    "MatchID": 80,
+    "PlayerID": 69,
+    "EventType": "Yellow",
+    "Minute": 60,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-17T23:00:00"
+  },
+  {
+    "EventID": 486,
+    "MatchID": 80,
+    "PlayerID": 64,
+    "EventType": "Goal",
+    "Minute": 62,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-17T23:00:00"
+  },
+  {
+    "EventID": 487,
+    "MatchID": 81,
+    "PlayerID": 6,
+    "EventType": "Goal",
+    "Minute": 74,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-24T17:00:00"
+  },
+  {
+    "EventID": 488,
+    "MatchID": 81,
+    "PlayerID": 4,
+    "EventType": "Yellow",
+    "Minute": 18,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-24T17:00:00"
+  },
+  {
+    "EventID": 489,
+    "MatchID": 81,
+    "PlayerID": 20,
+    "EventType": "Goal",
+    "Minute": 71,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-24T17:00:00"
+  },
+  {
+    "EventID": 490,
+    "MatchID": 81,
+    "PlayerID": 19,
+    "EventType": "Goal",
+    "Minute": 8,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-24T17:00:00"
+  },
+  {
+    "EventID": 491,
+    "MatchID": 81,
+    "PlayerID": 19,
+    "EventType": "Goal",
+    "Minute": 53,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-24T17:00:00"
+  },
+  {
+    "EventID": 492,
+    "MatchID": 81,
+    "PlayerID": 15,
+    "EventType": "Goal",
+    "Minute": 54,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-24T17:00:00"
+  },
+  {
+    "EventID": 493,
+    "MatchID": 81,
+    "PlayerID": 20,
+    "EventType": "Yellow",
+    "Minute": 29,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-24T17:00:00"
+  },
+  {
+    "EventID": 494,
+    "MatchID": 81,
+    "PlayerID": 17,
+    "EventType": "Yellow",
+    "Minute": 50,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-24T17:00:00"
+  },
+  {
+    "EventID": 495,
+    "MatchID": 82,
+    "PlayerID": 29,
+    "EventType": "Goal",
+    "Minute": 53,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-24T19:00:00"
+  },
+  {
+    "EventID": 496,
+    "MatchID": 82,
+    "PlayerID": 25,
+    "EventType": "Goal",
+    "Minute": 20,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-24T19:00:00"
+  },
+  {
+    "EventID": 497,
+    "MatchID": 82,
+    "PlayerID": 24,
+    "EventType": "Yellow",
+    "Minute": 61,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-24T19:00:00"
+  },
+  {
+    "EventID": 498,
+    "MatchID": 82,
+    "PlayerID": 28,
+    "EventType": "Yellow",
+    "Minute": 84,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-24T19:00:00"
+  },
+  {
+    "EventID": 499,
+    "MatchID": 82,
+    "PlayerID": 78,
+    "EventType": "Goal",
+    "Minute": 77,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-24T19:00:00"
+  },
+  {
+    "EventID": 500,
+    "MatchID": 82,
+    "PlayerID": 77,
+    "EventType": "Yellow",
+    "Minute": 28,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-24T19:00:00"
+  },
+  {
+    "EventID": 501,
+    "MatchID": 82,
+    "PlayerID": 82,
+    "EventType": "Yellow",
+    "Minute": 73,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-24T19:00:00"
+  },
+  {
+    "EventID": 502,
+    "MatchID": 83,
+    "PlayerID": 69,
+    "EventType": "Yellow",
+    "Minute": 13,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-24T21:00:00"
+  },
+  {
+    "EventID": 503,
+    "MatchID": 83,
+    "PlayerID": 66,
+    "EventType": "Yellow",
+    "Minute": 59,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-24T21:00:00"
+  },
+  {
+    "EventID": 504,
+    "MatchID": 83,
+    "PlayerID": 71,
+    "EventType": "Red",
+    "Minute": 84,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-24T21:00:00"
+  },
+  {
+    "EventID": 505,
+    "MatchID": 84,
+    "PlayerID": 46,
+    "EventType": "Goal",
+    "Minute": 26,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-24T23:00:00"
+  },
+  {
+    "EventID": 506,
+    "MatchID": 84,
+    "PlayerID": 55,
+    "EventType": "Goal",
+    "Minute": 12,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-24T23:00:00"
+  },
+  {
+    "EventID": 507,
+    "MatchID": 84,
+    "PlayerID": 63,
+    "EventType": "Goal",
+    "Minute": 32,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-24T23:00:00"
+  },
+  {
+    "EventID": 508,
+    "MatchID": 84,
+    "PlayerID": 65,
+    "EventType": "Goal",
+    "Minute": 53,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-24T23:00:00"
+  },
+  {
+    "EventID": 509,
+    "MatchID": 84,
+    "PlayerID": 57,
+    "EventType": "Yellow",
+    "Minute": 41,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-24T23:00:00"
+  },
+  {
+    "EventID": 510,
+    "MatchID": 84,
+    "PlayerID": 56,
+    "EventType": "Yellow",
+    "Minute": 27,
+    "CreatedBy": 2,
+    "CreatedAt": "2026-10-24T23:00:00"
+  }
+]
