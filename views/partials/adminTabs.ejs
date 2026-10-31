@@ -1,0 +1,8 @@
+<%
+  const tabs = [['/admin/seasons', 'ฤดูกาล'], ['/admin/teams', 'อนุมัติทีม'], ['/admin/audit', 'ประวัติการแก้สกอร์'], ['/admin/notifications', 'การแจ้งเตือน'], ['/db-check', 'ตรวจฐานข้อมูล']];
+%>
+<ul class="nav nav-tabs mb-3">
+  <% tabs.forEach(([href, label]) => { %>
+    <li class="nav-item"><a class="nav-link <%= path === href ? 'active' : '' %>" href="<%= href %>"><%= label %></a></li>
+  <% }) %>
+</ul>

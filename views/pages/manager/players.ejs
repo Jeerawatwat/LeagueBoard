@@ -1,0 +1,50 @@
+<%- include('../../partials/head', { title }) %>
+<div class="page-head">
+  <div>
+    <h1 class="h3 mb-0"><%= team.TeamName %></h1>
+    <div class="small text-secondary"><%= fmt.teamStatusLabel(team.Status) %></div>
+  </div>
+  <a class="btn btn-outline-secondary btn-sm" href="/manager">กลับ</a>
+</div>
+<div class="row g-3">
+  <div class="col-lg-5">
+    <form method="post" action="/manager/teams/<%= team.TeamID %>/players" class="panel panel-body">
+      <h2 class="panel-title">เพิ่มนักกีฬา</h2>
+      <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+      <div class="mb-3">
+        <label class="form-label" for="nickname">ชื่อเล่น</label>
+        <input class="form-control" id="nickname" name="nickname" maxlength="50" required>
+      </div>
+      <div class="mb-3">
+        <label class="form-label" for="position">ตำแหน่ง</label>
+        <select class="form-select" id="position" name="position">
+          <% Object.entries(positions).forEach(([code, label]) => { %><option value="<%= code %>"><%= label %></option><% }) %>
+        </select>
+      </div>
+      <div class="mb-3">
+        <label class="form-label" for="jerseyNo">เบอร์เสื้อ (1–99)</label>
+        <input class="form-control" id="jerseyNo" name="jerseyNo" type="number" required>
+      </div>
+      <button class="btn btn-primary w-100" type="submit">เพิ่มนักกีฬา</button>
+      <p class="small text-secondary mt-3 mb-0">เก็บเฉพาะชื่อเล่น ตำแหน่ง และเบอร์เสื้อ ข้อมูลใช้เพื่องานวิชาเท่านั้น</p>
+    </form>
+  </div>
+  <div class="col-lg-7">
+    <section class="panel panel-body">
+      <h2 class="panel-title">รายชื่อนักกีฬา (<%= roster.length %> คน)</h2>
+      <% if (roster.length === 0) { %>
+        <p class="text-secondary mb-0">ยังไม่มีนักกีฬา</p>
+      <% } else { %>
+        <table class="table table-sm align-middle mb-0">
+          <thead><tr><th scope="col">เบอร์</th><th scope="col">ชื่อเล่น</th><th scope="col">ตำแหน่ง</th></tr></thead>
+          <tbody>
+            <% roster.forEach((p) => { %>
+              <tr><td><%= p.JerseyNo %></td><td><%= p.Nickname %></td><td><%= fmt.positionLabel(p.Position) %></td></tr>
+            <% }) %>
+          </tbody>
+        </table>
+      <% } %>
+    </section>
+  </div>
+</div>
+<%- include('../../partials/foot') %>

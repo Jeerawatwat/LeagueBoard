@@ -1,0 +1,20 @@
+<%- include('../../partials/head', { title }) %>
+<div class="page-head">
+  <div>
+    <h1 class="h3 mb-0">กรอกผลการแข่งขัน</h1>
+    <% if (season) { %><div class="small text-secondary"><%= season.SeasonName %></div><% } %>
+  </div>
+</div>
+<% if (!season) { %>
+  <div class="empty-state">ยังไม่มีฤดูกาลที่กำลังแข่ง</div>
+<% } else { %>
+  <section class="panel mb-3">
+    <div class="panel-body pb-2"><h2 class="panel-title mb-0">รอกรอกผล (<%= pending.length %>)</h2></div>
+    <% pending.forEach((match) => { %><%- include('../../partials/matchRow', { match, href: '/referee/matches/' + match.MatchID }) %><% }) %>
+  </section>
+  <section class="panel">
+    <div class="panel-body pb-2"><h2 class="panel-title mb-0">จบแล้ว แก้ผลย้อนหลังได้ (<%= finished.length %>)</h2></div>
+    <% finished.forEach((match) => { %><%- include('../../partials/matchRow', { match, href: '/referee/matches/' + match.MatchID }) %><% }) %>
+  </section>
+<% } %>
+<%- include('../../partials/foot') %>

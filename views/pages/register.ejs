@@ -1,0 +1,24 @@
+<%- include('../partials/head', { title }) %>
+<form method="post" action="/register" class="panel panel-body narrow-form">
+  <h1 class="h4 mb-1">สมัครสมาชิก</h1>
+  <p class="small text-secondary">สำหรับผู้จัดการทีม เก็บเฉพาะข้อมูลที่จำเป็น และใช้เพื่องานวิชาเท่านั้น</p>
+  <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+  <div class="mb-3">
+    <label class="form-label" for="username">ชื่อผู้ใช้</label>
+    <input class="form-control" id="username" name="username" maxlength="50" autocomplete="username" required>
+  </div>
+  <div class="mb-3">
+    <label class="form-label" for="displayName">ชื่อที่แสดง</label>
+    <input class="form-control" id="displayName" name="displayName" maxlength="100" required>
+  </div>
+  <div class="mb-3">
+    <label class="form-label" for="password">รหัสผ่าน (อย่างน้อย <%= minPasswordLength %> ตัวอักษร)</label>
+    <input class="form-control" id="password" name="password" type="password" autocomplete="new-password" required>
+  </div>
+  <div class="mb-3">
+    <label class="form-label" for="confirm">ยืนยันรหัสผ่าน</label>
+    <input class="form-control" id="confirm" name="confirm" type="password" autocomplete="new-password" required>
+  </div>
+  <button class="btn btn-primary w-100" type="submit">สมัครสมาชิก</button>
+</form>
+<%- include('../partials/foot') %>

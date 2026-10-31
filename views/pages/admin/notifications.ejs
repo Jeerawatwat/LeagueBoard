@@ -1,0 +1,14 @@
+<%- include('../../partials/head', { title }) %>
+<%- include('../../partials/adminTabs') %>
+<% if (rows.length === 0) { %>
+  <div class="empty-state">ยังไม่มีการแจ้งเตือน</div>
+<% } else { %>
+  <section class="panel panel-body">
+    <ul class="notice-list">
+      <% rows.forEach((n) => { %>
+        <li><%= n.Message %><span class="notice-time"><%= fmt.formatDateTime(n.CreatedAt) %></span></li>
+      <% }) %>
+    </ul>
+  </section>
+<% } %>
+<%- include('../../partials/foot') %>

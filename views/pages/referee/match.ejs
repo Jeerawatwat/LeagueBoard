@@ -1,0 +1,108 @@
+<%- include('../../partials/head', { title }) %>
+<% const locked = match.SeasonStatus === 'Finished'; %>
+<div class="page-head">
+  <div>
+    <h1 class="h4 mb-0"><%= match.HomeTeamName %> พบ <%= match.AwayTeamName %></h1>
+    <div class="small text-secondary"><%= match.SeasonName %> รอบที่ <%= match.RoundNo %> · <%= fmt.formatDateTime(match.KickoffAt) %></div>
+  </div>
+  <a class="btn btn-outline-secondary btn-sm" href="/referee">กลับ</a>
+</div>
+
+<% if (locked) { %>
+  <div class="alert alert-secondary">ฤดูกาลนี้จบแล้ว แก้ไขผลไม่ได้</div>
+<% } %>
+<% if (goalMismatch) { %>
+  <div class="alert alert-warning">จำนวนประตูในเหตุการณ์ยังไม่ตรงกับสกอร์</div>
+<% } %>
+
+<div class="row g-3">
+  <div class="col-lg-5">
+    <form method="post" action="/referee/matches/<%= match.MatchID %>/result" class="panel panel-body mb-3">
+      <h2 class="panel-title"><%= match.Status === 'Finished' ? 'แก้ผลการแข่งขัน' : 'บันทึกผลการแข่งขัน' %></h2>
+      <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+      <input type="hidden" name="rowVersion" value="<%= match.RowVersion %>">
+      <div class="row g-2 mb-3">
+        <div class="col-6">
+          <label class="form-label small" for="homeScore"><%= match.HomeTeamName %></label>
+          <input class="form-control" id="homeScore" name="homeScore" type="number" value="<%= match.HomeScore === null ? '' : match.HomeScore %>" required <%= locked ? 'disabled' : '' %>>
+        </div>
+        <div class="col-6">
+          <label class="form-label small" for="awayScore"><%= match.AwayTeamName %></label>
+          <input class="form-control" id="awayScore" name="awayScore" type="number" value="<%= match.AwayScore === null ? '' : match.AwayScore %>" required <%= locked ? 'disabled' : '' %>>
+        </div>
+      </div>
+      <button class="btn btn-primary w-100" type="submit" <%= locked ? 'disabled' : '' %>>บันทึกผล</button>
+    </form>
+    <% if (match.Status === 'Finished' && !locked) { %>
+      <form method="post" action="/referee/matches/<%= match.MatchID %>/clear" class="panel panel-body" onsubmit="return confirm('ลบผลและเหตุการณ์ทั้งหมดของแมตช์นี้?')">
+        <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+        <input type="hidden" name="rowVersion" value="<%= match.RowVersion %>">
+        <button class="btn btn-outline-danger w-100" type="submit">ลบผลการแข่งขัน</button>
+      </form>
+    <% } %>
+  </div>
+
+  <div class="col-lg-7">
+    <section class="panel panel-body">
+      <h2 class="panel-title">เหตุการณ์ในแมตช์</h2>
+      <% if (events.length === 0) { %>
+        <p class="text-secondary">ยังไม่มีเหตุการณ์</p>
+      <% } else { %>
+        <table class="table table-sm align-middle">
+          <thead><tr><th scope="col">นาที</th><th scope="col">เหตุการณ์</th><th scope="col">ผู้เล่น</th><th scope="col"></th></tr></thead>
+          <tbody>
+            <% events.forEach((e) => { %>
+              <tr>
+                <td><%= e.Minute %>'</td>
+                <td><%= fmt.eventLabel(e.EventType) %></td>
+                <td>#<%= e.JerseyNo %> <%= e.Nickname %> <span class="small text-secondary"><%= e.TeamName %></span></td>
+                <td class="text-end">
+                  <% if (!locked) { %>
+                    <form method="post" action="/referee/matches/<%= match.MatchID %>/events/<%= e.EventID %>/delete">
+                      <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+                      <button class="btn btn-sm btn-outline-danger" type="submit">ลบ</button>
+                    </form>
+                  <% } %>
+                </td>
+              </tr>
+            <% }) %>
+          </tbody>
+        </table>
+      <% } %>
+      <% if (!locked) { %>
+        <form method="post" action="/referee/matches/<%= match.MatchID %>/events">
+          <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+          <div class="row g-2 align-items-end">
+            <div class="col-sm-5">
+              <label class="form-label small" for="playerId">ผู้เล่น</label>
+              <select class="form-select form-select-sm" id="playerId" name="playerId" required>
+                <optgroup label="<%= match.HomeTeamName %>">
+                  <% homeRoster.forEach((p) => { %><option value="<%= p.PlayerID %>">#<%= p.JerseyNo %> <%= p.Nickname %></option><% }) %>
+                </optgroup>
+                <optgroup label="<%= match.AwayTeamName %>">
+                  <% awayRoster.forEach((p) => { %><option value="<%= p.PlayerID %>">#<%= p.JerseyNo %> <%= p.Nickname %></option><% }) %>
+                </optgroup>
+              </select>
+            </div>
+            <div class="col-sm-3">
+              <label class="form-label small" for="eventType">เหตุการณ์</label>
+              <select class="form-select form-select-sm" id="eventType" name="eventType">
+                <option value="Goal">ประตู</option>
+                <option value="Yellow">ใบเหลือง</option>
+                <option value="Red">ใบแดง</option>
+              </select>
+            </div>
+            <div class="col-sm-2">
+              <label class="form-label small" for="minute">นาที</label>
+              <input class="form-control form-control-sm" id="minute" name="minute" type="number" required>
+            </div>
+            <div class="col-sm-2">
+              <button class="btn btn-primary btn-sm w-100" type="submit">เพิ่ม</button>
+            </div>
+          </div>
+        </form>
+      <% } %>
+    </section>
+  </div>
+</div>
+<%- include('../../partials/foot') %>

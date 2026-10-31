@@ -4,13 +4,19 @@ const fs = require('fs');
 const path = require('path');
 
 const DATA_DIR = path.join(__dirname, '..', '..', 'mock-data');
+let dataDir = DATA_DIR;
+
+// ให้ test ใช้สำเนาข้อมูล ไม่แตะ mock-data จริง
+function useDataDir(dir) {
+  dataDir = dir;
+}
 
 function read(table) {
-  return JSON.parse(fs.readFileSync(path.join(DATA_DIR, `${table}.json`), 'utf8'));
+  return JSON.parse(fs.readFileSync(path.join(dataDir, `${table}.json`), 'utf8'));
 }
 
 function write(table, rows) {
-  const file = path.join(DATA_DIR, `${table}.json`);
+  const file = path.join(dataDir, `${table}.json`);
   const tmp = `${file}.tmp`;
   fs.writeFileSync(tmp, `${JSON.stringify(rows, null, 2)}\n`, 'utf8');
   fs.renameSync(tmp, file);
@@ -28,4 +34,4 @@ function now() {
   return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}T${pad(d.getHours())}:${pad(d.getMinutes())}:${pad(d.getSeconds())}`;
 }
 
-module.exports = { DATA_DIR, read, write, nextId, now };
+module.exports = { DATA_DIR, useDataDir, read, write, nextId, now };

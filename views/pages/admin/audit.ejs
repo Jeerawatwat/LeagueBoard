@@ -1,0 +1,29 @@
+<%- include('../../partials/head', { title }) %>
+<%- include('../../partials/adminTabs') %>
+<% if (rows.length === 0) { %>
+  <div class="empty-state">ยังไม่มีประวัติการแก้สกอร์</div>
+<% } else { %>
+  <div class="panel table-responsive">
+    <table class="table align-middle mb-0">
+      <thead>
+        <tr><th scope="col">เวลา</th><th scope="col">แมตช์</th><th class="text-center" scope="col">สกอร์เดิม</th><th class="text-center" scope="col">สกอร์ใหม่</th><th scope="col">ผู้แก้</th><th scope="col">SQL login</th></tr>
+      </thead>
+      <tbody>
+        <% rows.forEach((a) => { %>
+          <tr>
+            <td class="small"><%= fmt.formatDateTime(a.ChangedAt) %></td>
+            <td class="small">
+              <% if (a.HomeTeamName) { %><a class="text-reset" href="/matches/<%= a.MatchID %>"><%= a.HomeTeamName %> พบ <%= a.AwayTeamName %></a>
+              <% } else { %>แมตช์ #<%= a.MatchID %> (ถูกลบ)<% } %>
+            </td>
+            <td class="text-center"><%= fmt.score(a.OldHomeScore) %>-<%= fmt.score(a.OldAwayScore) %></td>
+            <td class="text-center fw-bold"><%= fmt.score(a.NewHomeScore) %>-<%= fmt.score(a.NewAwayScore) %></td>
+            <td><%= a.ChangedByUsername || '-' %></td>
+            <td class="small"><%= a.ChangedByLogin %></td>
+          </tr>
+        <% }) %>
+      </tbody>
+    </table>
+  </div>
+<% } %>
+<%- include('../../partials/foot') %>

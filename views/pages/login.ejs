@@ -1,0 +1,16 @@
+<%- include('../partials/head', { title }) %>
+<form method="post" action="/login" class="panel panel-body narrow-form">
+  <h1 class="h4 mb-3">เข้าสู่ระบบ</h1>
+  <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+  <div class="mb-3">
+    <label class="form-label" for="username">ชื่อผู้ใช้</label>
+    <input class="form-control" id="username" name="username" autocomplete="username" required autofocus>
+  </div>
+  <div class="mb-3">
+    <label class="form-label" for="password">รหัสผ่าน</label>
+    <input class="form-control" id="password" name="password" type="password" autocomplete="current-password" required>
+  </div>
+  <button class="btn btn-primary w-100" type="submit">เข้าสู่ระบบ</button>
+  <p class="small text-secondary mt-3 mb-0">ยังไม่มีบัญชี <a href="/register">สมัครสมาชิก</a></p>
+</form>
+<%- include('../partials/foot') %>

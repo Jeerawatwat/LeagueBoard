@@ -1,0 +1,26 @@
+<%- include('../../partials/head', { title }) %>
+<div class="page-head">
+  <h1 class="h3 mb-0">ทีมของฉัน</h1>
+  <a class="btn btn-primary btn-sm" href="/manager/teams/new">สมัครทีม</a>
+</div>
+<% if (teams.length === 0) { %>
+  <div class="empty-state">คุณยังไม่มีทีม</div>
+<% } else { %>
+  <div class="panel">
+    <table class="table align-middle mb-0">
+      <thead><tr><th scope="col">ทีม</th><th scope="col">ฤดูกาลที่สมัคร</th><th scope="col">สถานะ</th><th class="text-center" scope="col">นักกีฬา</th><th scope="col"></th></tr></thead>
+      <tbody>
+        <% teams.forEach((team) => { %>
+          <tr>
+            <td><img class="team-logo me-2" src="<%= fmt.logo(team.LogoUrl) %>" alt=""><%= team.TeamName %></td>
+            <td><%= team.RequestedSeasonName %></td>
+            <td><%= fmt.teamStatusLabel(team.Status) %></td>
+            <td class="text-center"><%= team.PlayerCount %></td>
+            <td class="text-end"><a class="btn btn-outline-primary btn-sm" href="/manager/teams/<%= team.TeamID %>/players">นักกีฬา</a></td>
+          </tr>
+        <% }) %>
+      </tbody>
+    </table>
+  </div>
+<% } %>
+<%- include('../../partials/foot') %>

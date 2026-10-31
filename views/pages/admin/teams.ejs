@@ -1,0 +1,40 @@
+<%- include('../../partials/head', { title }) %>
+<%- include('../../partials/adminTabs') %>
+<section class="panel panel-body mb-3">
+  <h2 class="panel-title">รออนุมัติ (<%= pending.length %>)</h2>
+  <% if (pending.length === 0) { %>
+    <p class="text-secondary mb-0">ไม่มีทีมที่รออนุมัติ</p>
+  <% } else { %>
+    <table class="table align-middle mb-0">
+      <thead><tr><th scope="col">ทีม</th><th scope="col">ฤดูกาล</th><th scope="col">ผู้สมัคร</th><th scope="col"></th></tr></thead>
+      <tbody>
+        <% pending.forEach((t) => { %>
+          <tr>
+            <td><img class="team-logo me-2" src="<%= fmt.logo(t.LogoUrl) %>" alt=""><%= t.TeamName %></td>
+            <td><%= t.RequestedSeasonName %></td>
+            <td><%= t.CreatedByUsername %></td>
+            <td class="text-end">
+              <form method="post" action="/admin/teams/<%= t.TeamID %>/review" class="d-inline-flex gap-2">
+                <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+                <button class="btn btn-sm btn-primary" name="decision" value="approve" type="submit">อนุมัติ</button>
+                <button class="btn btn-sm btn-outline-danger" name="decision" value="reject" type="submit">ปฏิเสธ</button>
+              </form>
+            </td>
+          </tr>
+        <% }) %>
+      </tbody>
+    </table>
+  <% } %>
+</section>
+<section class="panel panel-body">
+  <h2 class="panel-title">พิจารณาแล้ว</h2>
+  <table class="table table-sm align-middle mb-0">
+    <thead><tr><th scope="col">ทีม</th><th scope="col">ผู้สมัคร</th><th scope="col">สถานะ</th></tr></thead>
+    <tbody>
+      <% reviewed.forEach((t) => { %>
+        <tr><td><%= t.TeamName %></td><td><%= t.CreatedByUsername %></td><td><%= fmt.teamStatusLabel(t.Status) %></td></tr>
+      <% }) %>
+    </tbody>
+  </table>
+</section>
+<%- include('../../partials/foot') %>

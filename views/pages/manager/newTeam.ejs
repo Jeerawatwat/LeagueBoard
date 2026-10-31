@@ -1,0 +1,30 @@
+<%- include('../../partials/head', { title }) %>
+<% if (seasons.length === 0) { %>
+  <div class="empty-state">ขณะนี้ยังไม่เปิดรับสมัครทีม</div>
+<% } else { %>
+  <form method="post" action="/manager/teams/new" class="panel panel-body narrow-form">
+    <h1 class="h4 mb-3">สมัครทีม</h1>
+    <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+    <div class="mb-3">
+      <label class="form-label" for="teamName">ชื่อทีม</label>
+      <input class="form-control" id="teamName" name="teamName" maxlength="100" required>
+    </div>
+    <div class="mb-3">
+      <label class="form-label" for="shortName">ชื่อย่อ</label>
+      <input class="form-control" id="shortName" name="shortName" maxlength="10" required>
+    </div>
+    <div class="mb-3">
+      <label class="form-label" for="logoUrl">ลิงก์โลโก้ (ไม่บังคับ)</label>
+      <input class="form-control" id="logoUrl" name="logoUrl" maxlength="300">
+    </div>
+    <div class="mb-3">
+      <label class="form-label" for="requestedSeasonId">ฤดูกาล</label>
+      <select class="form-select" id="requestedSeasonId" name="requestedSeasonId" required>
+        <% seasons.forEach((s) => { %><option value="<%= s.SeasonID %>"><%= s.SeasonName %></option><% }) %>
+      </select>
+    </div>
+    <button class="btn btn-primary w-100" type="submit">ส่งใบสมัคร</button>
+    <p class="small text-secondary mt-3 mb-0">ผู้ใช้หนึ่งคนมีทีมได้ไม่เกิน 3 ทีม ทีมจะเข้าฤดูกาลเมื่อผู้ดูแลอนุมัติ</p>
+  </form>
+<% } %>
+<%- include('../../partials/foot') %>

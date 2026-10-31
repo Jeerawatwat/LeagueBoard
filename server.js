@@ -35,6 +35,10 @@ app.use(exposeFlash);
 app.use(csrf);
 
 app.use(require('./routes/public'));
+app.use(require('./routes/auth'));
+app.use(require('./routes/manager'));
+app.use(require('./routes/referee'));
+app.use(require('./routes/admin'));
 
 app.use(notFound);
 app.use(errorHandler);

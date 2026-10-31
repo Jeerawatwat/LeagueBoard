@@ -1,0 +1,69 @@
+<%- include('../../partials/head', { title }) %>
+<%- include('../../partials/adminTabs') %>
+<div class="row g-3">
+  <div class="col-lg-8">
+    <% seasons.forEach((s) => { %>
+      <section class="panel panel-body mb-3">
+        <div class="d-flex flex-wrap justify-content-between gap-2">
+          <div>
+            <h2 class="panel-title mb-1"><%= s.SeasonName %></h2>
+            <div class="small text-secondary">
+              <%= fmt.seasonStatusLabel(s.Status) %> · <%= fmt.formatDate(s.StartDate) %> ถึง <%= fmt.formatDate(s.EndDate) %> ·
+              <%= s.TeamCount %> ทีม · แข่งแล้ว <%= s.FinishedCount %>/<%= s.MatchCount %> แมตช์
+            </div>
+          </div>
+          <div class="d-flex flex-wrap gap-2">
+            <% if (s.Status === 'Upcoming') { %>
+              <form method="post" action="/admin/seasons/<%= s.SeasonID %>/fixtures">
+                <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+                <button class="btn btn-sm btn-primary" type="submit">สร้างตารางแข่ง</button>
+              </form>
+              <form method="post" action="/admin/seasons/<%= s.SeasonID %>/status">
+                <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+                <input type="hidden" name="status" value="Active">
+                <button class="btn btn-sm btn-outline-primary" type="submit">เริ่มฤดูกาล</button>
+              </form>
+            <% } %>
+            <% if (s.Status === 'Active') { %>
+              <form method="post" action="/admin/seasons/<%= s.SeasonID %>/status">
+                <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+                <input type="hidden" name="status" value="Finished">
+                <button class="btn btn-sm btn-outline-secondary" type="submit">จบฤดูกาล</button>
+              </form>
+            <% } %>
+          </div>
+        </div>
+        <% if (s.Status === 'Upcoming') { %>
+          <form method="post" action="/admin/seasons/<%= s.SeasonID %>/teams" class="d-flex gap-2 mt-3">
+            <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+            <label class="visually-hidden" for="team<%= s.SeasonID %>">เลือกทีม</label>
+            <select class="form-select form-select-sm" id="team<%= s.SeasonID %>" name="teamId">
+              <% approvedTeams.forEach((t) => { %><option value="<%= t.TeamID %>"><%= t.TeamName %></option><% }) %>
+            </select>
+            <button class="btn btn-sm btn-outline-primary text-nowrap" type="submit">เพิ่มทีม</button>
+          </form>
+        <% } %>
+      </section>
+    <% }) %>
+  </div>
+  <div class="col-lg-4">
+    <form method="post" action="/admin/seasons" class="panel panel-body">
+      <h2 class="panel-title">สร้างฤดูกาล</h2>
+      <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+      <div class="mb-3">
+        <label class="form-label" for="seasonName">ชื่อฤดูกาล</label>
+        <input class="form-control" id="seasonName" name="seasonName" maxlength="100" required>
+      </div>
+      <div class="mb-3">
+        <label class="form-label" for="startDate">วันเริ่มต้น</label>
+        <input class="form-control" id="startDate" name="startDate" type="date" required>
+      </div>
+      <div class="mb-3">
+        <label class="form-label" for="endDate">วันสิ้นสุด</label>
+        <input class="form-control" id="endDate" name="endDate" type="date" required>
+      </div>
+      <button class="btn btn-primary w-100" type="submit">สร้างฤดูกาล</button>
+    </form>
+  </div>
+</div>
+<%- include('../../partials/foot') %>
