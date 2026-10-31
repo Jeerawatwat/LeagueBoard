@@ -1,11 +1,20 @@
 <!doctype html>
-<html lang="th">
+<html lang="th" data-bs-theme="dark">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title><%= title %> | LeagueBoard</title>
+  <title><%= title %> | Kaset League</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kanit:wght@500;600;700&display=swap">
   <link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="/css/app.css">
+  <script>
+    try {
+      var savedTheme = localStorage.getItem('lb-theme');
+      if (savedTheme === 'light' || savedTheme === 'dark') document.documentElement.setAttribute('data-bs-theme', savedTheme);
+    } catch (e) {}
+  </script>
 </head>
 <body>
 <%
@@ -14,7 +23,10 @@
 %>
 <nav class="navbar navbar-expand-lg site-nav" data-bs-theme="dark">
   <div class="container">
-    <a class="navbar-brand" href="/">LeagueBoard</a>
+    <a class="navbar-brand d-flex align-items-center" href="/">
+      <img class="brand-logo" src="/img/ku-logo.png" alt="Kasetsart University">
+      <span>Kaset League</span>
+    </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="เปิดเมนู">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -25,6 +37,9 @@
         <% }) %>
       </ul>
       <ul class="navbar-nav align-items-lg-center gap-lg-1">
+        <li class="nav-item me-lg-2">
+          <button type="button" class="btn btn-sm theme-toggle" id="themeToggle" aria-label="สลับโหมดสว่าง/มืด"></button>
+        </li>
         <% if (currentUser) { %>
           <% if (currentUser.role === 'team_manager') { %><li class="nav-item"><a class="nav-link" href="/manager">ทีมของฉัน</a></li><% } %>
           <% if (currentUser.role === 'referee') { %><li class="nav-item"><a class="nav-link" href="/referee">กรอกผล</a></li><% } %>
