@@ -82,7 +82,21 @@ function vwMatchList() {
 }
 
 function vwUpcomingMatches() {
-  return vwMatchList().filter((m) => m.Status === 'Scheduled' && m.SeasonStatus === 'Active');
+  return vwMatchList()
+    .filter((m) => m.Status === 'Scheduled' && m.SeasonStatus === 'Active')
+    .map((m) => ({
+      MatchID: m.MatchID,
+      SeasonID: m.SeasonID,
+      RoundNo: m.RoundNo,
+      KickoffAt: m.KickoffAt,
+      HomeTeamID: m.HomeTeamID,
+      AwayTeamID: m.AwayTeamID,
+      HomeTeamName: m.HomeTeamName,
+      AwayTeamName: m.AwayTeamName,
+      HomeLogoUrl: m.HomeLogoUrl,
+      AwayLogoUrl: m.AwayLogoUrl,
+      VenueName: m.VenueName,
+    }));
 }
 
 function vwTopScorers(seasonId) {

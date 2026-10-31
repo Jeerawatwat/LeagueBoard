@@ -242,6 +242,17 @@ test('สมัครสมาชิกได้เป็น team_manager เท
   assert.match((await b.login('newcomer', 'Newcomer#1')).body, /คนใหม่/);
 });
 
+test('หน้า /db-check เฉพาะแอดมิน และปุ่มทดสอบ viewer ได้ Permission denied', async () => {
+  const b = new Browser();
+  await b.login('referee', 'Referee#2026');
+  assert.strictEqual((await b.get('/db-check')).status, 403);
+  const admin = new Browser();
+  await admin.login('admin', 'Admin#2026');
+  assert.match((await admin.get('/db-check')).body, /โหมด mock/);
+  const res = await admin.post('/db-check/permission-test', {}, '/db-check');
+  assert.match(res.body, /Permission denied/);
+});
+
 test('ค้นหาไม่เจอหน้าไม่พัง และข้อความถูก escape', async () => {
   const res = await new Browser().get(`/players/search?q=${encodeURIComponent('<script>alert(1)</script>')}`);
   assert.strictEqual(res.status, 200);

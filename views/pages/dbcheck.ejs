@@ -1,0 +1,44 @@
+<%- include('../partials/head', { title }) %>
+<%- include('../partials/adminTabs') %>
+<% if (result.mode === 'mock') { %>
+  <section class="panel panel-body mb-3">
+    <h2 class="panel-title">โหมด mock</h2>
+    <p class="mb-0">เว็บยังไม่ได้ต่อฐานข้อมูล ตั้งค่า <code>DATA_SOURCE=mssql</code> ใน <code>.env</code> เพื่อตรวจการเชื่อมต่อจริง</p>
+  </section>
+<% } else { %>
+  <section class="panel panel-body mb-3">
+    <h2 class="panel-title">การเชื่อมต่อของแต่ละ login</h2>
+    <table class="table table-sm align-middle mb-0">
+      <tbody>
+        <% result.logins.forEach((login) => { %>
+          <tr>
+            <td><%= login.name %></td>
+            <td class="<%= login.ok ? 'text-success' : 'text-danger' %>"><%= login.ok ? 'เชื่อมต่อได้' : 'เชื่อมต่อไม่ได้ (' + login.code + ')' %></td>
+          </tr>
+        <% }) %>
+      </tbody>
+    </table>
+  </section>
+  <section class="panel panel-body mb-3">
+    <h2 class="panel-title">โครงสร้างตาม contract</h2>
+    <% if (!result.schemaRead) { %>
+      <p class="text-danger mb-0">ตรวจโครงสร้างไม่ได้ เพราะ login checker ใช้งานไม่ได้ หรืออ่าน metadata ไม่ได้</p>
+    <% } else if (result.missing.length === 0) { %>
+      <p class="text-success mb-0">ครบตาม contract</p>
+    <% } else { %>
+      <p class="text-danger">ยังขาด <%= result.missing.length %> รายการ</p>
+      <ul class="mb-0"><% result.missing.forEach((item) => { %><li><%= item %></li><% }) %></ul>
+    <% } %>
+    <% if (result.warnings.length) { %>
+      <h3 class="h6 mt-3">คำเตือน</h3>
+      <ul class="mb-0"><% result.warnings.forEach((item) => { %><li class="small"><%= item %></li><% }) %></ul>
+    <% } %>
+  </section>
+<% } %>
+<form method="post" action="/db-check/permission-test" class="panel panel-body">
+  <h2 class="panel-title">ทดสอบสิทธิ์ของ viewer</h2>
+  <p class="small text-secondary">เรียก <code>usp_RecordMatchResult</code> ผ่าน connection ของ viewer ฐานข้อมูลต้องปฏิเสธด้วย Permission denied และไม่มีข้อมูลถูกแก้</p>
+  <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+  <button class="btn btn-outline-danger btn-sm" type="submit">ลองแก้ผลในฐานะ viewer</button>
+</form>
+<%- include('../partials/foot') %>
